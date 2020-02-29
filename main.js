@@ -66,8 +66,8 @@ $(document).ready(function() {
     if (filterSearch !== "" && sp.name.toLowerCase().indexOf(filterSearch) === -1)
       return false;
 
-	console.log(filterSources);
-	console.log(sp.source);
+	//console.log(filterSources);
+	//console.log(sp.source);
 	
 	var intersection=false;
 	for (i = 0; i < sp.source.length; i++) {
@@ -515,7 +515,7 @@ $(document).ready(function() {
   $('#filteruatobm').bind('click',function() { toggleFilter(this, filterSources, 'UA TOBM') });
   $('#filterxgte').bind('click',function() { toggleFilter(this, filterSources, 'XGtE') });
   $('#clearsources').bind('click', function() {
-    $('a.filtersource').removeClass('selected');
+    $('div.filtersource').removeClass('selected');
     filterSources = new Set();
     refilter();
   });

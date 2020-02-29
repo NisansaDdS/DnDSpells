@@ -9,6 +9,14 @@
     <script type="text/javascript" src="bitset.min.js"></script>
     <script type="text/javascript" src="spells.js"></script>
     <script type="text/javascript" src="main.js"></script>
+	
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	
+	
     </script>
     <style>
       body {
@@ -65,7 +73,7 @@
       }
 
       .levelcol {
-        width: 3em;
+        width: 4em;
       }
 
       .namecol {
@@ -73,15 +81,15 @@
       }
 
       .ritualcol {
-        width: 4em;
+        width: 6em;
       }
 
       .concentrationcol {
-        width: 4em;
+        width: 7em;
       }
 
       .componentcol {
-        width: 4em;
+        width: 6em;
       }
 
       .schoolcol {
@@ -89,7 +97,7 @@
       }
 
       .sourcecol {
-        width: 5em;
+        width: 7em;
       }
 
       td, th {
@@ -135,11 +143,14 @@
         -webkit-border-radius: .5em;
         -moz-border-radius: .5em;
         border-radius: .5em;
+		font-weight: bold;
+		overflow: hidden;
       }
 
       .filterbutton.selected {
-        background: teal;
-        color: white;
+        background: lightblue;
+		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);
+        color: black;
       }
 
       #filterinput {
@@ -151,7 +162,7 @@
       }
 
       .spell:hover {
-        background-color: lightgray;
+        background-color: lightblue;
       }
 
       #floater {
@@ -181,6 +192,8 @@
 	  .damage{
 		height:30px;
 	  }
+	  
+	  
     </style>
   </head>
   <body>
@@ -217,17 +230,17 @@
       <div class="filtercat">
         <a id="generate" class="filterbutton" target="_blank">Generate printable PDF! (opens in new window)</a><br/>
       </div>
-      <table id="selectedtable">
+      <table id="selectedtable" class="table">
         <thead>
           <tr>
-            <th class="levelcol">Lvl</th>
-            <th class="namecol">Name</th>
-            <th class="classcol">List</th>
-            <th class="schoolcol">School</th>
-            <th class="ritualcol">Ritual</th>
-            <th class="concentrationcol">Conc.</th>
-            <th class="componentcol">Comp.</th>
-            <th class="sourcecol">Source</th>
+            <th class="levelcol col">Lvl</th>
+            <th class="namecol col">Name</th>
+            <th class="classcol col">List</th>
+            <th class="schoolcol col">School</th>
+            <th class="ritualcol col">Ritual</th>
+            <th class="concentrationcol col">Conc.</th>
+            <th class="componentcol col">Comp.</th>
+            <th class="sourcecol col">Source</th>
           </tr>
         </thead>
         <tbody id="selectedtablebody">
@@ -240,16 +253,49 @@
         <div class="filtercat">
           <a id="clearfilters" class="filterbutton">Reset filters</a>
         </div>
+		
+        <table>
+		
+		<div class="filtercat">
+		
+		<tr>
+			<td><b>Source:</b> </td>
+			<td><b>Spell List:</b> (<a id="clearlists" class="filterbutton">clear</a>)</td>
+		</tr>
+		
+		</div>
+		
+		<tr>
+		<td>
+		
+		
+		
+		<table>
+		
+		
+		<div class="filtercat">
+		
+		<tr align="center">
+          <td><div id="filterphb" class="filterbutton filtersource selected"><a><img height="200px" src="https://images-na.ssl-images-amazon.com/images/I/81pViXqeVLL.jpg"><br>Players Handbook (PHB)</a></div></td>
+          <td><div id="filtereepc" class="filterbutton filtersource"><a><img height="200px" src="https://vignette.wikia.nocookie.net/forgottenrealms/images/d/dc/Elemental_evil_players_companion.jpg"><br>	Elemental Evil Player's Companion (EEPC)</a></div></td>
+          <td><div id="filterscag" class="filterbutton filtersource"><a><img height="200px" src="https://images-na.ssl-images-amazon.com/images/I/91DYVtyrKxL.jpg"><br>Sword Coast Adventurer's Guide (SCAG)</a></div></td>
+		  <td><div id="filterxgte" class="filterbutton filtersource"><a><img height="200px" src="https://images-na.ssl-images-amazon.com/images/I/81objtUow1L.jpg"><br>Xanathar's Guide to Everything (XGtE)</a></div></td>
+		 </tr>
+		 <tr align="center">
+			<td colspan="3"><div id="filteruatobm" class="filterbutton filtersource"><a><img height="200px" src="https://media.dnd.wizards.com/styles/news_banner_header/public/images/news/SA20151019_header_0.jpg"><br>Unearthed Arcana (UA)</a></div></td>
+			<td><a><div id="clearsources" class="filterbutton filtersource"><img height="200px" src="clear.png"><br>Clear</a></div></td>
+		 </tr>
+		 
+		 </div>
+		 
+		 </table>
+        
+		
+		</td>
+		<td>
+		
         <div class="filtercat">
-          <b>Source:</b> (<a id="clearsources" class="filterbutton">clear</a>)
-          <a id="filterphb" class="filterbutton filtersource selected">PHB</a>
-          <a id="filtereepc" class="filterbutton filtersource">EEPC</a>
-          <a id="filterscag" class="filterbutton filtersource">SCAG</a>
-          <a id="filteruatobm" class="filterbutton filtersource">UA</a>
-		  <a id="filterxgte" class="filterbutton filtersource">XGtE</a>
-        </div>
-        <div class="filtercat">
-          <b>Spell List:</b> (<a id="clearlists" class="filterbutton">clear</a>)<br/>
+          
 
           Class:
           <a id="filterbard" class="filterbutton filterclass">Bard</a>
@@ -324,17 +370,25 @@
           <input type="text" id="searchinput"/>
         </div>
       </div>
-      <table id="searchtable">
+	  
+	  </td>
+	  <tr>
+	  </table>
+	  
+	  
+	  
+	  
+      <table id="searchtable" class="table">
         <thead>
           <tr>
-          <th class="levelcol" data-sort="int">Lvl</th>
-          <th class="namecol" id="startsorted" data-sort="string">Name</th>
-          <th class="classcol" data-sort="string">List</th>
-          <th class="schoolcol" data-sort="string">School</th>
-          <th class="ritualcol" data-sort="string">Ritual</th>
-          <th class="concentrationcol" data-sort="string">Conc.</th>
-          <th class="componentcol" data-sort="string">Comp.</th>
-          <th class="sourcecol" data-sort="string">Source</th>
+          <th class="levelcol col" data-sort="int">Lvl</th>
+          <th class="namecol col" id="startsorted" data-sort="string">Name</th>
+          <th class="classcol col" data-sort="string">List</th>
+          <th class="schoolcol col" data-sort="string">School</th>
+          <th class="ritualcol col" data-sort="string">Ritual</th>
+          <th class="concentrationcol col" data-sort="string">Conc.</th>
+          <th class="componentcol col" data-sort="string">Comp.</th>
+          <th class="sourcecol col" data-sort="string">Source</th>
           </tr>
         </thead>
         <tbody id="searchtablebody">
