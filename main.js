@@ -585,7 +585,7 @@ $(document).ready(function() {
 
   var $searchBox = $('#searchinput');
   $searchBox.bind('input', function() {
-    filterSearch = $(this).val();
+    filterSearch = $(this).val().toLowerCase();
     refilter();
   });
 
