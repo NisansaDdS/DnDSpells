@@ -10,7 +10,15 @@ var template = `
   </h3>  
   {{#concentration}}
   <img class="badges"  src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/core_mechanics/concentration.svg">
+	{{#ritual}}
+		<img class="badges2"  src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/core_mechanics/ritual.svg">
+	{{/ritual}}  
   {{/concentration}}  
+  {{^concentration}}
+	{{#ritual}}
+		<img class="badges"  src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/core_mechanics/ritual.svg">
+	{{/ritual}}  
+  {{/concentration}}
   </div>
   <div class="card-body">
   <table width="100%;">

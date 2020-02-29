@@ -85,6 +85,9 @@ $(document).ready(function() {
 
     return true;
   };
+  
+  
+ 
 
   var refilter = function() {
     var numSelected = 0;
