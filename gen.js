@@ -1,30 +1,16 @@
 var template = `
 {{#spells}}
-<div class="spell card pmd-card bg-light">
-  
-  
-  
-  <div class="card-header">
-  
-  
-  <h3>
-  
+<div class="spell card pmd-card bg-light">  
+  <div class="card-header">  
+  <h3>  
   {{#school}}
   <img class="school" src="{{{school}}}.png">
-  {{/school}}
-  
-  {{name}}
-  
-  </h3>
-   
-  
+  {{/school}}  
+  {{name}}  
+  </h3>  
   {{#concentration}}
   <img class="badges"  src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/core_mechanics/concentration.svg">
-  {{/concentration}}
-  
-  
-  
-  
+  {{/concentration}}  
   </div>
   <div class="card-body">
   <table width="100%;">
@@ -39,15 +25,12 @@ var template = `
 	</tr>
 	{{#material_cost}}
 	<tr>
-		<td colspan="3">{{material_desc}}</td>	
+		<td colspan="3"><br>{{material_desc}}</td>	
 	</tr>
-	{{/material_cost}}
-	
+	{{/material_cost}}	
   </table>
-  <hr>
-  
-  {{{desc}}}
-  
+  <hr>  
+  {{{desc}}}  
   {{#higher_level}}  
   <div class="card bg-info">
   <div class="card-header inner-headder"><b>At higher levels:</b></div>
@@ -55,11 +38,8 @@ var template = `
   {{{higher_level}}}   
   </div>
   </div>  
-  {{/higher_level}}
-  
-  
+  {{/higher_level}}  
 </div>
-
 </div>
 {{/spells}}
 `;
@@ -71,8 +51,10 @@ var query = window.location.search.substring(1),
 
 spellbook.sort(function(a, b) {
   if (a.level === b.level)
-    return a.name < b.name ? -1 : 1;
-  else
+	  if(a.school === b.school)
+		  return a.name < b.name ? -1 : 1;
+	  else
+		  return a.school < b.school ? -1 : 1;
     return a.level - b.level;
 });
 
