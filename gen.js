@@ -31,11 +31,11 @@ var template = `
 		<td width="20%;"><b>Components:</b><br>{{component_desc}}</td>
 		<td width="50%;"><b>Duration:</b><br>{{duration}}</td>
 	</tr>
-	{{#material_cost}}
+	{{#material_desc}}
 	<tr>
 		<td colspan="3"><br>{{material_desc}}</td>	
 	</tr>
-	{{/material_cost}}	
+	{{/material_desc}}	
   </table>
   <hr>  
   {{{desc}}}  
@@ -47,6 +47,13 @@ var template = `
   </div>
   </div>  
   {{/higher_level}}  
+  <table>
+  <tr>
+  {{#direct}}<td><b>Direct&nbsp;&nbsp;&nbsp;&nbsp;</b><br><img class='damage'  src='{{{type}}}.png'>&nbsp;&nbsp;{{{damage}}}&nbsp;&nbsp;&nbsp;&nbsp;</td>{{/direct}}
+  {{#subsequent}}<td><b>Subsequent&nbsp;&nbsp;</b><br><img class='damage'  src='{{{type}}}.png'>&nbsp;&nbsp;&nbsp;&nbsp;{{{damage}}}&nbsp;&nbsp;&nbsp;&nbsp;</td>{{/subsequent}}
+  {{#continuous}}<td><b>Continuous&nbsp;&nbsp;&nbsp;&nbsp;</b><br><img class='damage'  src='{{{type}}}.png'>&nbsp;&nbsp;{{{damage}}}</td>{{/continuous}}
+  </tr>
+  </table>
 </div>
 </div>
 {{/spells}}
