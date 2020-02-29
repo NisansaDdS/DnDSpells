@@ -501,6 +501,7 @@ $(document).ready(function() {
   $('#filtereepc').bind('click',function() { toggleFilter(this, filterSources, 'EE PC') });
   $('#filterscag').bind('click',function() { toggleFilter(this, filterSources, 'SCAG') });
   $('#filteruatobm').bind('click',function() { toggleFilter(this, filterSources, 'UA TOBM') });
+  $('#filterxgte').bind('click',function() { toggleFilter(this, filterSources, 'XGtE') });
   $('#clearsources').bind('click', function() {
     $('a.filtersource').removeClass('selected');
     filterSources = new Set();
