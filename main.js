@@ -66,7 +66,16 @@ $(document).ready(function() {
     if (filterSearch !== "" && sp.name.toLowerCase().indexOf(filterSearch) === -1)
       return false;
 
-    if (filterSources.size !== 0 && !filterSources.has(sp.source))
+	console.log(filterSources);
+	console.log(sp.source);
+	
+	var intersection=false;
+	for (i = 0; i < sp.source.length; i++) {
+		intersection=intersection||filterSources.has(sp.source[i])
+	}
+	
+    //if (filterSources.size !== 0 && !filterSources.has(sp.source))
+	if (filterSources.size !== 0 && !intersection)
       return false;
 
     if ((filterClasses.size + filterDomains.size + filterCircles.size +

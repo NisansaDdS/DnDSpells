@@ -1,5 +1,5 @@
 var spells=[
-  {
+ /* {
     "name": "Abi-Dalzim's Horrid Wilting",
     "desc": "<p>You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren't affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 12d8 necrotic damage on a failed save, or half as much damage on a successful one.</p><p>Nonmagical plants in the area that aren't creatures, such as trees and shrubs, wither and die instantly.</p>",
     "range": "150 feet",
@@ -20,12 +20,12 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of sponge",
+    "material_desc": "A bit of sponge",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 15
-  },
-  {
+  },  */
+ /* {
     "name": "Absorb Elements",
     "desc": "<p>The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.</p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.</p>",
@@ -48,9 +48,9 @@ var spells=[
     "verbal": false,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 15
-  },
+  }, */
   {
     "name": "Acid Splash",
     "desc": "<p>You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.</p>",
@@ -73,7 +73,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 211
   },
   {
@@ -98,9 +98,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a red dragon's scale",
+    "material_desc": "A red dragon's scale",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 15
   },
   {
@@ -125,9 +125,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a tiny strip of white cloth",
+    "material_desc": "A tiny strip of white cloth",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 211
   },
   {
@@ -152,9 +152,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a tiny bell and a piece of fine silver wire",
+    "material_desc": "A tiny bell and a piece of fine silver wire",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 211
   },
   {
@@ -178,7 +178,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 211
   },
   {
@@ -211,9 +211,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a morsel of food",
+    "material_desc": "A morsel of food",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 212
   },
   {
@@ -240,9 +240,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a morsel of food",
+    "material_desc": "A morsel of food",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 212
   },
   {
@@ -265,7 +265,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 212
   },
   {
@@ -290,9 +290,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of blood, a piece of flesh, and a pinch of bone dust",
+    "material_desc": "A drop of blood, a piece of flesh, and a pinch of bone dust",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 212
   },
   {
@@ -318,7 +318,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 213
   },
   {
@@ -341,7 +341,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 213
   },
   {
@@ -365,9 +365,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of powdered iron or iron filings",
+    "material_desc": "A pinch of powdered iron or iron filings",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 213
   },
   {
@@ -391,9 +391,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect",
+    "material_desc": "Either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 214
   },
   {
@@ -423,9 +423,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of bat fur",
+    "material_desc": "A bit of bat fur",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 214
   },
   {
@@ -450,7 +450,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 214
   },
   {
@@ -473,9 +473,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "gold dust worth at least 25gp, which the spell consumes",
+    "material_desc": "Gold dust worth at least 25gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 215
   },
   {
@@ -499,9 +499,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a cup of water",
+    "material_desc": "A cup of water",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 215
   },
   {
@@ -525,7 +525,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 215
   },
   {
@@ -550,9 +550,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "for each creature you affect with this spell, you must provide one jacinth worth at least 1,000gp and one ornately carved bar of silver worth at least 100gp, all of which the spell consumes",
+    "material_desc": "For each creature you affect with this spell, you must provide one jacinth worth at least 1,000gp and one ornately carved bar of silver worth at least 100gp, all of which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 215
   },
   {
@@ -579,9 +579,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "specially marked sticks, bones, or similar tokens worth at least 25gp",
+    "material_desc": "Specially marked sticks, bones, or similar tokens worth at least 25gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 215
   },
   {
@@ -604,7 +604,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 216
   },
   {
@@ -627,7 +627,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 216
   },
   {
@@ -650,7 +650,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 216
   },
   {
@@ -674,9 +674,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "an agate worth at least 1,000 gp, which the spell consumes",
+    "material_desc": "An agate worth at least 1,000 gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 216
   },
   {
@@ -708,9 +708,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of blood",
+    "material_desc": "A drop of blood",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 216
   },
   {
@@ -733,7 +733,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 216
   },
   {
@@ -764,9 +764,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "an item distasteful to the target",
+    "material_desc": "An item distasteful to the target",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 217
   },
   {
@@ -800,9 +800,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a handful of oak bark",
+    "material_desc": "A handful of oak bark",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 217
   },
   {
@@ -835,7 +835,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 217
   },
   {
@@ -860,9 +860,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of fur wrapped in a cloth",
+    "material_desc": "A bit of fur wrapped in a cloth",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 15
   },
   {
@@ -887,7 +887,7 @@ var spells=[
     "verbal": false,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 217
   },
   {
@@ -913,7 +913,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 218
   },
   {
@@ -937,9 +937,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "an eggshell and a snakeskin glove",
+    "material_desc": "An eggshell and a snakeskin glove",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 218
   },
   {
@@ -962,7 +962,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 218
   },
   {
@@ -988,7 +988,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 218
   },
   {
@@ -1016,9 +1016,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a sprinkling of holy water",
+    "material_desc": "A sprinkling of holy water",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 219
   },
   {
@@ -1048,7 +1048,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 219,"direct":[{"type":"Necrotic","damage":"Success: (x-3)d8 / Fail: Half"}]
   },
   {
@@ -1071,7 +1071,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 219
   },
   {
@@ -1105,7 +1105,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 219
   },
   {
@@ -1140,7 +1140,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 219
   },
   {
@@ -1171,10 +1171,10 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 219
   },
-  {
+/*  {
     "name": "Bones of the Earth",
     "desc": "<p>You cause up to six pillars of stone to burst from places on the ground that you can see within range. Each pillar is a cylinder that has a diameter of 5 feet and a height of up to 30 feet. The ground where a pillar appears must be wide enough for its diameter, and you can target the ground under a creature if that creature is Medium or smaller. Each pillar has AC 5 and 30 hit points. When reduced to 0 hit points, a pillar crumbles into rubble, which creates an area of difficult terrain with a 10-foot radius that lasts until the rubble is cleared. Each 5-foot-diameter portion of the area requires at least 1 minute to clear by hand.</p><p>If a pillar is created under a creature, that creature must succeed on a Dexterity saving throw or be lifted by the pillar. A creature can choose to fail the save.</p><p>If a pillar is prevented from reaching its full height because of a ceiling or other obstacle, a creature on the pillar takes 6d6 bludgeoning damage and is restrained, pinched between the pillar and the obstacle. The restrained creature can use an action to make a Strength or Dexterity check (the creature's choice) against the spell's save DC. On a success, the creature is no longer restrained and must either move off the pillar or fall off it.</p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 7th level or higher, you can create two additional pillars for each slot level above 6th.</p>",
@@ -1195,9 +1195,9 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 15
-  },
+  },   */
   {
     "name": "Booming Blade",
     "desc": "<p>As part of the action used the cast this spell, you must make a melee attack with a weapon against one create within the spell's range otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and it becomes sheathed in booming energy until the start of your next turn. If the target willingly moves before then, it immediately takes 1d8 thunder damage, and the spell ends.</p><p>This spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 thunder damage to the target, and the damage the target take for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.</p>",
@@ -1220,9 +1220,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": false,
-    "material_desc": "a weapon",
+    "material_desc": "A weapon",
     "material_cost": false,
-    "source": "SCAG",
+    "source": ["SCAG"],
     "page": 142
   },
   {
@@ -1246,7 +1246,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 219
   },
   {
@@ -1282,7 +1282,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 220
   },
   {
@@ -1316,7 +1316,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 220
   },
   {
@@ -1347,10 +1347,10 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 221
   },
-  {
+ /* {
     "name": "Catapult",
     "desc": "<p>Choose one object weighing 1 to 5 pounds within range that isn't being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. When the object strikes something, the object and what it strikes each take 3d8 bludgeoning damage.</p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by 1d8, for each slot level above 1st.</p>",
@@ -1372,9 +1372,9 @@ var spells=[
     "verbal": false,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 15
-  },
+  },  */
   {
     "name": "Chain Lightning",
     "desc": "<p>You create a bolt of lightning that arcs toward a target of your choice that you can see within range. Three bolts then leap from that target to as many as three other targets, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.</p><p>A target must make a Dexterity saving throw. The target takes 10d8 lightning damage on a failed save, or half as much damage on a successful one.</p>",
@@ -1397,9 +1397,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins",
+    "material_desc": "A bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 221
   },
   {
@@ -1434,7 +1434,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 221
   },
   {
@@ -1460,7 +1460,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 221
   },
   {
@@ -1485,9 +1485,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a diamond worth at least 50gp",
+    "material_desc": "A diamond worth at least 50gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 221
   },
   {
@@ -1513,9 +1513,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "the powder of a crushed black pearl worth at least 500 gp",
+    "material_desc": "The powder of a crushed black pearl worth at least 500 gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 221
   },
   {
@@ -1538,7 +1538,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 221
   },
   {
@@ -1571,9 +1571,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a focus worth at least 100gp, either a jeweled horn for hearing or a glass eye for seeing",
+    "material_desc": "A focus worth at least 100gp, either a jeweled horn for hearing or a glass eye for seeing",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 222
   },
   {
@@ -1596,9 +1596,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consumes, and a vessel worth at least 2,000 gp that has a sealable lid and is large enough to hold a Medium creature, such as a huge urn, coffin, mud-filled cyst in the ground, or crystal container filled with salt water",
+    "material_desc": "A diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consumes, and a vessel worth at least 2,000 gp that has a sealable lid and is large enough to hold a Medium creature, such as a huge urn, coffin, mud-filled cyst in the ground, or crystal container filled with salt water",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 222
   },
   {
@@ -1625,9 +1625,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a sliver of glass",
+    "material_desc": "A sliver of glass",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 222
   },
   {
@@ -1659,7 +1659,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 222
   },
   {
@@ -1684,9 +1684,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of powder or sand that is colored red, yellow, and blue",
+    "material_desc": "A pinch of powder or sand that is colored red, yellow, and blue",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 222
   },
   {
@@ -1721,7 +1721,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 223
   },
   {
@@ -1752,9 +1752,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "incense and a vial of holy or unholy water",
+    "material_desc": "Incense and a vial of holy or unholy water",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 223
   },
   {
@@ -1790,7 +1790,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 224
   },
   {
@@ -1813,7 +1813,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 224
   },
   {
@@ -1840,9 +1840,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of soot and salt",
+    "material_desc": "A pinch of soot and salt",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 224
   },
   {
@@ -1865,7 +1865,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 224
   },
   {
@@ -1897,9 +1897,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a small crystal or glass cone",
+    "material_desc": "A small crystal or glass cone",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 224
   },
   {
@@ -1933,9 +1933,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "three walnut shells",
+    "material_desc": "Three walnut shells",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 224
   },
   {
@@ -1960,7 +1960,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 225
   },
   {
@@ -1985,7 +1985,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "UA TOBM",
+    "source": ["UA TOBM"],
     "page": 2
   },
   {
@@ -2008,9 +2008,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "one piece of ammunition or a thrown weapon",
+    "material_desc": "One piece of ammunition or a thrown weapon",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 225
   },
   {
@@ -2034,7 +2034,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 225
   },
   {
@@ -2062,9 +2062,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water",
+    "material_desc": "Burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 225
   },
   {
@@ -2089,9 +2089,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "food worth at least 100 gp, which the spell consumes",
+    "material_desc": "Food worth at least 100 gp, which the spell consumes",
     "material_cost": true,
-    "source": "UA TOBM",
+    "source": ["UA TOBM"],
     "page": 2
   },
   {
@@ -2116,7 +2116,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 226
   },
   {
@@ -2142,9 +2142,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a vial of blood from an intelligent humanoid killed within the past 24 hours",
+    "material_desc": "A vial of blood from an intelligent humanoid killed within the past 24 hours",
     "material_cost": false,
-    "source": "UA TOBM",
+    "source": ["UA TOBM"],
     "page": 2
   },
   {
@@ -2169,7 +2169,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 226
   },
   {
@@ -2194,9 +2194,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a vial of blood from an intelligent humanoid killed within the past 24 hours",
+    "material_desc": "A vial of blood from an intelligent humanoid killed within the past 24 hours",
     "material_cost": false,
-    "source": "UA TOBM",
+    "source": ["UA TOBM"],
     "page": 3
   },
   {
@@ -2219,9 +2219,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "one piece of ammunition or one thrown weapon",
+    "material_desc": "One piece of ammunition or one thrown weapon",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 226
   },
   {
@@ -2246,9 +2246,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a gem worth at least 100 gp, which the spell consumes",
+    "material_desc": "A gem worth at least 100 gp, which the spell consumes",
     "material_cost": true,
-    "source": "UA TOBM",
+    "source": ["UA TOBM"],
     "page": 3
   },
   {
@@ -2273,9 +2273,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "one holly berry per creature summoned",
+    "material_desc": "One holly berry per creature summoned",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 226
   },
   {
@@ -2300,7 +2300,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 226
   },
   {
@@ -2324,7 +2324,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 227
   },
   {
@@ -2347,9 +2347,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp",
+    "material_desc": "A statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 227
   },
   {
@@ -2373,9 +2373,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "ruby dust worth 50 gp, which the spell consumes",
+    "material_desc": "Ruby dust worth 50 gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 227
   },
   {
@@ -2400,7 +2400,7 @@ var spells=[
     "verbal": false,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 16
   },
   {
@@ -2425,9 +2425,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of water and a pinch of dust",
+    "material_desc": "A drop of water and a pinch of dust",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 227
   },
   {
@@ -2458,9 +2458,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "burning incense and bits of earth and wood mixed in water",
+    "material_desc": "Burning incense and bits of earth and wood mixed in water",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 228
   },
   {
@@ -2485,7 +2485,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 16
   },
   {
@@ -2509,9 +2509,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "four or more arrows or bolts",
+    "material_desc": "Four or more arrows or bolts",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 228
   },
   {
@@ -2537,10 +2537,10 @@ var spells=[
     "verbal": false,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 228
   },
-  {
+ /* {
     "name": "Create Bonfire",
     "desc": "<p>You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5-foot cube. Any creature in the bonfire's space when you cast the spell must succeed on a Dexterity saving throw or take 1d8 fire damage. A creature must also make the saving throw when it moves into the bonfire's space for the first time on a turn or ends its turn there.</p><p>The bonfire ignites flammable objects in its area that aren't being worn or carried.</p><p>The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>",
     "range": "60 feet",
@@ -2563,9 +2563,9 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 16
-  },
+  }, */
   {
     "name": "Create Food and Water",
     "desc": "<p>You create 45 pounds of food and 30 gallons of water on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is bland but nourishing, and spoils if uneaten after 24 hours. The water is clean and doesn't go bad.</p>",
@@ -2594,7 +2594,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 229
   },
   {
@@ -2619,9 +2619,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of water if creating water, or a few grains of sand if destroying it",
+    "material_desc": "A drop of water if creating water, or a few grains of sand if destroying it",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 229
   },
   {
@@ -2649,7 +2649,7 @@ var spells=[
     "somatic": true,
     "material_desc": "One clay pot filled with grave dirt, one clay pot filled with brackish water, and one 150 gp black onyx stone for each corpse",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 229
   },
   {
@@ -2674,9 +2674,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a tiny piece of matter of the same type of the item you plan to create",
+    "material_desc": "A tiny piece of matter of the same type of the item you plan to create",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 229
   },
   {
@@ -2702,7 +2702,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 229
   },
   {
@@ -2732,7 +2732,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 230
   },
   {
@@ -2763,7 +2763,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 230,"direct":[{"type":"Heal","damage":"Xd8 + your spellcasting ability modifier"}]
   },
   {
@@ -2788,9 +2788,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of phosphorus or wychwood, or a glowworm",
+    "material_desc": "A bit of phosphorus or wychwood, or a glowworm",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 230
   },
   {
@@ -2822,9 +2822,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": false,
-    "material_desc": "bat fur and a drop of pitch or piece of coal",
+    "material_desc": "Bat fur and a drop of pitch or piece of coal",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 230
   },
   {
@@ -2850,9 +2850,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "either a pinch of dried carrot or an agate",
+    "material_desc": "Either a pinch of dried carrot or an agate",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 230
   },
   {
@@ -2885,7 +2885,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 230
   },
   {
@@ -2912,7 +2912,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 230
   },
   {
@@ -2937,9 +2937,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a tiny ball of bat guano and sulfur",
+    "material_desc": "A tiny ball of bat guano and sulfur",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 230
   },
   {
@@ -2963,7 +2963,7 @@ var spells=[
     "verbal": false,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 231
   },
   {
@@ -2993,7 +2993,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 231
   },
   {
@@ -3017,7 +3017,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 231
   },
   {
@@ -3047,7 +3047,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 231
   },
   {
@@ -3074,9 +3074,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a yew leaf",
+    "material_desc": "A yew leaf",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 231
   },
   {
@@ -3108,9 +3108,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a copper coin",
+    "material_desc": "A copper coin",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 231
   },
   {
@@ -3147,7 +3147,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 233
   },
   {
@@ -3179,7 +3179,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 233
   },
   {
@@ -3204,9 +3204,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a lodestone and a pinch of dust",
+    "material_desc": "A lodestone and a pinch of dust",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 233
   },
   {
@@ -3230,9 +3230,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "holy water or powdered silver and iron",
+    "material_desc": "Holy water or powdered silver and iron",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 233
   },
   {
@@ -3272,7 +3272,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 234
   },
   {
@@ -3303,7 +3303,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 234
   },
   {
@@ -3336,9 +3336,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "incense and a sacrificial offering appropriate to your religion, together worth at least 25gp, which the spell consumes",
+    "material_desc": "Incense and a sacrificial offering appropriate to your religion, together worth at least 25gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 234
   },
   {
@@ -3368,7 +3368,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 234
   },
   {
@@ -3391,7 +3391,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 234
   },
   {
@@ -3429,7 +3429,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 234
   },
   {
@@ -3453,9 +3453,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a sapphire worth 1,000 gp",
+    "material_desc": "A sapphire worth 1,000 gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 235
   },
   {
@@ -3482,7 +3482,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 235
   },
   {
@@ -3521,7 +3521,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 235
   },
   {
@@ -3553,9 +3553,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird",
+    "material_desc": "A handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 236
   },
   {
@@ -3578,7 +3578,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 236
   },
   {
@@ -3604,12 +3604,12 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of dust",
+    "material_desc": "A pinch of dust",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 17
   },
-  {
+ /* {
     "name": "Earth Tremor",
     "desc": "<p>You cause a tremor in the ground within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.</p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p><p></p>",
@@ -3633,9 +3633,9 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 17
-  },
+  }, */
   {
     "name": "Earthbind",
     "desc": "<p>Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw, or its flying speed (if any) is reduced to 0 feet for the spell's duration. An airborne creature affected by this spell safely descends at 60 feet per round until it reaches the ground or the spell ends.</p>",
@@ -3659,7 +3659,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 17
   },
   {
@@ -3684,9 +3684,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of dirt, a piece of rock, and a lump of clay",
+    "material_desc": "A pinch of dirt, a piece of rock, and a lump of clay",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 236
   },
   {
@@ -3710,7 +3710,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 237,
     "direct": [
       {
@@ -3742,7 +3742,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 17
   },
   {
@@ -3766,7 +3766,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 237
   },
   {
@@ -3793,9 +3793,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "fur or a feather from a beast",
+    "material_desc": "Fur or a feather from a beast",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 237
   },
   {
@@ -3819,9 +3819,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch iron powder",
+    "material_desc": "A pinch iron powder",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 237
   },
   {
@@ -3852,7 +3852,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 237
   },
   {
@@ -3875,7 +3875,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 238
   },
   {
@@ -3899,7 +3899,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 238
   },
   {
@@ -3925,9 +3925,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a piece of obsidian",
+    "material_desc": "A piece of obsidian",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 17
   },
   {
@@ -3955,7 +3955,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 238
   },
   {
@@ -3985,9 +3985,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a piece of tentacle of an octopus or a giant squid",
+    "material_desc": "A piece of tentacle of an octopus or a giant squid",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 238
   },
   {
@@ -4012,7 +4012,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 238
   },
   {
@@ -4038,7 +4038,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 238
   },
   {
@@ -4061,7 +4061,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 239
   },
   {
@@ -4096,7 +4096,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 239
   },
   {
@@ -4121,9 +4121,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a small amount of alcohol or distilled spirits",
+    "material_desc": "A small amount of alcohol or distilled spirits",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 239
   },
   {
@@ -4149,9 +4149,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a white feather or the heart of a hen",
+    "material_desc": "A white feather or the heart of a hen",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 239
   },
   {
@@ -4176,9 +4176,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": false,
-    "material_desc": "a small feather or a piece of down",
+    "material_desc": "A small feather or a piece of down",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 239
   },
   {
@@ -4204,9 +4204,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a handful of clay, crystal, glass, or mineral spheres",
+    "material_desc": "A handful of clay, crystal, glass, or mineral spheres",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 239
   },
   {
@@ -4233,9 +4233,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of graveyard dirt",
+    "material_desc": "A pinch of graveyard dirt",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 240
   },
   {
@@ -4261,7 +4261,7 @@ var spells=[
     "somatic": true,
     "material_desc": "10gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier.",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 240
   },
   {
@@ -4284,7 +4284,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 240
   },
   {
@@ -4309,9 +4309,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a set of divinatory tools—such as bones, ivory sticks, cards, teeth, or carved runes—worth 100gp and an object from the location you wish to find",
+    "material_desc": "A set of divinatory tools—such as bones, ivory sticks, cards, teeth, or carved runes—worth 100gp and an object from the location you wish to find",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 240
   },
   {
@@ -4336,7 +4336,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 241
   },
   {
@@ -4361,7 +4361,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 241,"direct":[{"type":"Necrotic","damage":"Success: 7d8+30 / Fail: Half"}]
   },
   {
@@ -4397,9 +4397,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a tiny ball of bat guano and sulfur",
+    "material_desc": "A tiny ball of bat guano and sulfur",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 241
   },
   {
@@ -4424,7 +4424,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 242,
     "direct": [
       {
@@ -4460,9 +4460,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a little phosphorus or a firefly",
+    "material_desc": "A little phosphorus or a firefly",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 242
   },
   {
@@ -4487,7 +4487,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 242
   },
   {
@@ -4514,7 +4514,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 18
   },
   {
@@ -4538,9 +4538,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "leaf of sumac",
+    "material_desc": "Leaf of sumac",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 242
   },
   {
@@ -4579,9 +4579,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "pinch of sulfur",
+    "material_desc": "Pinch of sulfur",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 242
   },
   {
@@ -4613,9 +4613,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of tallow, a pinch of brimstone, and a dusting of powdered iron",
+    "material_desc": "A bit of tallow, a pinch of brimstone, and a dusting of powdered iron",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 242
   },
   {
@@ -4639,9 +4639,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of lime, water, and earth",
+    "material_desc": "A pinch of lime, water, and earth",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 243
   },
   {
@@ -4667,9 +4667,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a wing feather from any bird",
+    "material_desc": "A wing feather from any bird",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 243
   },
   {
@@ -4703,7 +4703,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 243
   },
   {
@@ -4727,9 +4727,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a sprinkling of holy water, rare incense, and powdered ruby worth at least 1,000 gp",
+    "material_desc": "A sprinkling of holy water, rare incense, and powdered ruby worth at least 1,000 gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 243
   },
   {
@@ -4754,9 +4754,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "ruby dust worth 1,500 gp",
+    "material_desc": "Ruby dust worth 1,500 gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 243
   },
   {
@@ -4782,9 +4782,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a hummingbird feather",
+    "material_desc": "A hummingbird feather",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 244
   },
   {
@@ -4827,9 +4827,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a leather strap, bound around the arm or a similar appendage",
+    "material_desc": "A leather strap, bound around the arm or a similar appendage",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 244
   },
   {
@@ -4855,9 +4855,9 @@ var spells=[
     "verbal": false,
     "material": true,
     "somatic": true,
-    "material_desc": "a small amount of makeup applied to the face as this spell is cast",
+    "material_desc": "A small amount of makeup applied to the face as this spell is cast",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 244
   },
   {
@@ -4883,7 +4883,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 18
   },
   {
@@ -4915,9 +4915,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of gauze and a wisp of smoke",
+    "material_desc": "A bit of gauze and a wisp of smoke",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 244
   },
   {
@@ -4942,9 +4942,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a diamond worth at least 5,000gp",
+    "material_desc": "A diamond worth at least 5,000gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 244
   },
   {
@@ -4972,7 +4972,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 244
   },
   {
@@ -4997,9 +4997,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of salt and one copper piece placed on each of the corpse’s eyes, which must remain there for the duration",
+    "material_desc": "A pinch of salt and one copper piece placed on each of the corpse’s eyes, which must remain there for the duration",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 245
   },
   {
@@ -5022,7 +5022,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 245
   },
   {
@@ -5046,7 +5046,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 245
   },
   {
@@ -5071,9 +5071,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a glass or crystal bead that shatters when the spell ends",
+    "material_desc": "A glass or crystal bead that shatters when the spell ends",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 245
   },
   {
@@ -5099,9 +5099,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "incense and powdered diamond worth at least 200 gp, the spell consumes",
+    "material_desc": "Incense and powdered diamond worth at least 200 gp, the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 245
   },
   {
@@ -5125,9 +5125,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a sprig of mistletoe",
+    "material_desc": "A sprig of mistletoe",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 246
   },
   {
@@ -5158,7 +5158,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 246
   },
   {
@@ -5181,9 +5181,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of pork rind or butter",
+    "material_desc": "A bit of pork rind or butter",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 246
   },
   {
@@ -5219,7 +5219,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 246
   },
   {
@@ -5244,9 +5244,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "diamond dust worth at least 100gp, which the spell consumes",
+    "material_desc": "Diamond dust worth at least 100gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 246
   },
   {
@@ -5272,9 +5272,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": false,
-    "material_desc": "a weapon",
+    "material_desc": "A weapon",
     "material_cost": false,
-    "source": "SCAG",
+    "source": ["SCAG"],
     "page": 143,
     "direct": [
       {
@@ -5320,7 +5320,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 246
   },
   {
@@ -5344,9 +5344,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "burning incense, a small measure of brimstone and oil, a knotted string, a small amount of umber hulk blood, and a small silver rod worth at least 10 gp",
+    "material_desc": "Burning incense, a small measure of brimstone and oil, a knotted string, a small amount of umber hulk blood, and a small silver rod worth at least 10 gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 248
   },
   {
@@ -5370,7 +5370,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 248
   },
   {
@@ -5394,7 +5394,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 248
   },
   {
@@ -5419,7 +5419,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 19
   },
   {
@@ -5451,9 +5451,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a legume seed",
+    "material_desc": "A legume seed",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 248
   },
   {
@@ -5477,7 +5477,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 249
   },
   {
@@ -5507,9 +5507,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "herbs, oils, and incense worth at least 1,000 gp, which the spell consumes",
+    "material_desc": "Herbs, oils, and incense worth at least 1,000 gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 249
   },
   {
@@ -5538,9 +5538,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a stone, a twig, and a bit of green plant.</p><p>You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren’t changed in appearance",
+    "material_desc": "A stone, a twig, and a bit of green plant.</p><p>You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren’t changed in appearance",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 249
   },
   {
@@ -5563,7 +5563,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 249
   },
   {
@@ -5598,9 +5598,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a shaving of licorice root",
+    "material_desc": "A shaving of licorice root",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 250
   },
   {
@@ -5625,7 +5625,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 250
   },
   {
@@ -5651,7 +5651,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 250
   },
   {
@@ -5676,9 +5676,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a piece of iron and a flame",
+    "material_desc": "A piece of iron and a flame",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 250
   },
   {
@@ -5702,7 +5702,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 250,"direct":[{"type":"Fire","damage":"Success: Xd10 / Fail: Half"}]
   },
   {
@@ -5726,9 +5726,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a gem-encrusted bowl worth at least 1,000gp, which the spell consumes",
+    "material_desc": "A gem-encrusted bowl worth at least 1,000gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 250
   },
   {
@@ -5752,7 +5752,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 250,
     "higher_level": "<p>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p>"
   },
@@ -5777,9 +5777,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "the petrified eye of a newt",
+    "material_desc": "The petrified eye of a newt",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 251,"direct":[{"type":"Necrotic","damage":"1d6"}]
   },
   {
@@ -5817,9 +5817,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a small piece of iron",
+    "material_desc": "A small piece of iron",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 251
   },
   {
@@ -5858,9 +5858,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a small, straight piece of iron",
+    "material_desc": "A small, straight piece of iron",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 251
   },
   {
@@ -5883,9 +5883,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a tiny reliquary worth at least 1,000gp containing a sacred relic, such as a scrap of cloth from a saint’s robe or a piece of parchment from a religious text",
+    "material_desc": "A tiny reliquary worth at least 1,000gp containing a sacred relic, such as a scrap of cloth from a saint’s robe or a piece of parchment from a religious text",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 251
   },
   {
@@ -5908,9 +5908,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pickled octopus tentacle",
+    "material_desc": "A pickled octopus tentacle",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 251,"direct":[{"type":"Cold","damage":"2d6 (Start)"},{"type":"Acid","damage":"2d6 (End)"}]
   },
   {
@@ -5941,7 +5941,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 251
   },
   {
@@ -5967,12 +5967,12 @@ var spells=[
     "verbal": false,
     "material": true,
     "somatic": true,
-    "material_desc": "a glowing stick of incense or a crystal vial filled with phosphorescent material",
+    "material_desc": "A glowing stick of incense or a crystal vial filled with phosphorescent material",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 252
   },
-  {
+  /* {
     "name": "Ice Knife",
     "desc": "<p>You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 cold damage.</p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot level above 1st.</p>",
@@ -5995,11 +5995,11 @@ var spells=[
     "verbal": false,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of water or piece of ice",
+    "material_desc": "A drop of water or piece of ice",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 19
-  },
+  },  */
   {
     "name": "Ice Storm",
     "desc": "<p>A hail of rock-hard ice pounds to the ground in a 20- foot-radius, 40-foot-high cylinder centered on a point within range. Each creature in the cylinder must make a Dexterity saving throw. A creature takes 2d8 bludgeoning damage and 4d6 cold damage on a failed save, or half as much damage on a successful one.</p><p>Hailstones turn the storm's area of effect into difficult terrain until the end of your next turn.</p>",
@@ -6037,9 +6037,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of dust and a few drops of water",
+    "material_desc": "A pinch of dust and a few drops of water",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 252
   },
   {
@@ -6071,9 +6071,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pearl worth at least 100gp and an owl feather",
+    "material_desc": "A pearl worth at least 100gp and an owl feather",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 252
   },
   {
@@ -6099,12 +6099,12 @@ var spells=[
     "verbal": false,
     "material": true,
     "somatic": true,
-    "material_desc": "a lead-based ink worth at least 10gp, which this spell consumes",
+    "material_desc": "A lead-based ink worth at least 10gp, which this spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 252
   },
-  {
+ /* {
     "name": "Immolation",
     "desc": "<p>Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 8d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns for the spell's duration. The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. At the end of each of its turns, the target repeats the saving throw. It takes 4d6 fire damage on a failed save, and the spell ends on a successful one. These magical flames can't be extinguished by nonmagical means.</p><p>If damage from this spell kills a target, the target is turned to ash.</p>",
     "range": "90 feet",
@@ -6125,9 +6125,9 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 19
-  },
+  }, */
   {
     "name": "Imprisonment",
     "desc": "<p>You create a magical restraint to hold a creature that you can see within range. The target must succeed on a Wisdom saving throw or be bound by the spell; if it succeeds, it is immune to this spell if you cast it again. While affected by this spell, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Divination spells can't locate or perceive the target.</p><p>When you cast the spell, you choose one of the following forms of imprisonment.</p><p><strong>Burial.</strong> The target is entombed far beneath the earth in a sphere of magical force that is just large enough to contain the target. Nothing can pass through the sphere, nor can any creature teleport or use planar travel to get into or out of it.</p><p>The special component for this version of the spell is a small mithral orb.</p><p><strong>Chaining.</strong> Heavy chains, firmly rooted in the ground, hold the target in place. The target is restrained until the spell ends, and it can't move or be moved by any means until then.</p><p>The special component for this version of the spell is a fine chain of precious metal.</p><p><strong>Hedged Prison.</strong> The spell transports the target into a tiny demiplane that is warded against teleportation and planar travel. The demiplane can be a labyrinth, a cage, a tower, or any similar confined structure or area of your choice.</p><p>The special component for this version of the spell is a miniature representation of the prison made from jade.</p><p><strong>Minimus Containment.</strong> The target shrinks to a height of 1 inch and is imprisoned inside a gemstone or similar object. Light can pass through the gemstone normally (allowing the target to see out and other creatures to see in), but nothing else can pass through, even by means of teleportation or planar travel. The gemstone can't be cut or broken while the spell remains in effect.</p><p>The special component for this version of the spell is a large, transparent gemstone, such as a corundum, diamond, or ruby.</p><p><strong>Slumber.</strong> The target falls asleep and can't be awoken. The special component for this version of the spell consists of rare soporific herbs.</p><p><strong>Ending the Spell.</strong> During the casting of the spell, in any of its versions, you can specify a condition that will cause the spell to end and release the target. The condition can be as specific or as elaborate as you choose, but the GM must agree that the condition is reasonable and has a likelihood of coming to pass. The conditions can be based on a creature's name, identity, or deity but otherwise must be based on observable actions or qualities and not based on intangibles such as level, class, or hit points.</p><p>A <strong>dispel magic</strong> spell can end the spell only if it is cast as a 9th-level spell, targeting either the prison or the special component used to create it.</p><p>You can use a particular special component to create only one prison at a time. If you cast the spell again using the same component, the target of the first casting is immediately freed from its binding.</p>",
@@ -6149,9 +6149,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a vellum depiction or a carved statuette in the likeness of the target, and a special component that varies according to the version of the spell you choose, worth at least 500gp per Hit Die of the target",
+    "material_desc": "A vellum depiction or a carved statuette in the likeness of the target, and a special component that varies according to the version of the spell you choose, worth at least 500gp per Hit Die of the target",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 252
   },
   {
@@ -6175,7 +6175,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 253
   },
   {
@@ -6199,7 +6199,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 253
   },
   {
@@ -6235,9 +6235,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a few grains of sugar, some kernels of grain, and a smear of fat",
+    "material_desc": "A few grains of sugar, some kernels of grain, and a smear of fat",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 254
   },
   {
@@ -6263,7 +6263,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 19
   },
   {
@@ -6289,10 +6289,10 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 19
   },
-  {
+ /* {
     "name": "Investiture of Stone",
     "desc": "<p>Until the spell ends, bits of rock spread across your body, and you gain the following benefits:</p><ul><li><p>You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.</p></li><li><p>You can use your action to create a small earthquake on the ground in a 15-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked prone.</p></li><li><p>You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can't end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are stunned until the end of your next turn.</p></li></ul>",
     "range": "Self",
@@ -6315,9 +6315,9 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 19
-  },
+  },  */
   {
     "name": "Investiture of Wind",
     "desc": "<p>Until the spell ends, wind whirls around you, and you gain the following benefits:</p><ul><li><p>Ranged weapon attacks made against you have disadvantage on the attack roll.</p></li><li><p>You gain a flying speed of 60 feet. If you are still flying when the spell ends, you fall, unless you can somehow prevent it.</p></li><li><p>You can use your action to create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes 2d10 bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube.</p></li></ul>",
@@ -6341,7 +6341,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 20
   },
   {
@@ -6375,9 +6375,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "an eyelash encased in gum arabic",
+    "material_desc": "An eyelash encased in gum arabic",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 254
   },
   {
@@ -6403,9 +6403,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a grasshopper’s hind leg",
+    "material_desc": "A grasshopper’s hind leg",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 254
   },
   {
@@ -6430,7 +6430,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 254
   },
   {
@@ -6458,9 +6458,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "incense worth 250 inches that fate consumes and four sticks of ivory worth 50 gp each",
+    "material_desc": "Incense worth 250 inches that fate consumes and four sticks of ivory worth 50 gp each",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 254
   },
   {
@@ -6483,9 +6483,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "an exquisite chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth at least 5,000 gp, and a Tiny replica made from the same materials worth at least 50 gp",
+    "material_desc": "An exquisite chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth at least 5,000 gp, and a Tiny replica made from the same materials worth at least 50 gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 254
   },
   {
@@ -6510,9 +6510,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a small crystal bead",
+    "material_desc": "A small crystal bead",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 255
   },
   {
@@ -6545,7 +6545,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 255
   },
   {
@@ -6569,9 +6569,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end",
+    "material_desc": "Either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 255
   },
   {
@@ -6597,9 +6597,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": false,
-    "material_desc": "a firefly or phosphorescent moss",
+    "material_desc": "A firefly or phosphorescent moss",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 255
   },
   {
@@ -6623,7 +6623,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 255
   },
   {
@@ -6655,9 +6655,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of fur and a rod of amber, crystal, or glass",
+    "material_desc": "A bit of fur and a rod of amber, crystal, or glass",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 255
   },
   {
@@ -6683,7 +6683,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "SCAG",
+    "source": ["SCAG"],
     "page": 143
   },
   {
@@ -6709,9 +6709,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of fur from a bloodhound",
+    "material_desc": "A bit of fur from a bloodhound",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 256
   },
   {
@@ -6742,9 +6742,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of fur from a bloodhound",
+    "material_desc": "A bit of fur from a bloodhound",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 256
   },
   {
@@ -6772,9 +6772,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a forked twig",
+    "material_desc": "A forked twig",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 256
   },
   {
@@ -6801,9 +6801,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of dirt",
+    "material_desc": "A pinch of dirt",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 256
   },
   {
@@ -6826,9 +6826,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "paper or leaf in the shape of a funnel",
+    "material_desc": "Paper or leaf in the shape of a funnel",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 20
   },
   {
@@ -6852,9 +6852,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a piece of cured leather",
+    "material_desc": "A piece of cured leather",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 256
   },
   {
@@ -6880,7 +6880,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 256
   },
   {
@@ -6907,9 +6907,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "holy water or powdered silver and iron worth at least 100 gp, which the spell consumes",
+    "material_desc": "Holy water or powdered silver and iron worth at least 100 gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 256
   },
   {
@@ -6932,9 +6932,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a gem, crystal, reliquary, or some other ornamental container worth at least 500 gp",
+    "material_desc": "A gem, crystal, reliquary, or some other ornamental container worth at least 500 gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 257
   },
   {
@@ -6959,7 +6959,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 257
   },
   {
@@ -6984,9 +6984,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a honeycomb and jade dust of at least 10 inches, the spell consumes",
+    "material_desc": "A honeycomb and jade dust of at least 10 inches, the spell consumes",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 257
   },
   {
@@ -7010,7 +7010,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 20
   },
   {
@@ -7042,7 +7042,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 257
   },
   {
@@ -7069,9 +7069,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of fleece",
+    "material_desc": "A bit of fleece",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 258
   },
   {
@@ -7100,7 +7100,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 258
   },
   {
@@ -7123,7 +7123,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 258
   },
   {
@@ -7147,7 +7147,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 258
   },
   {
@@ -7174,12 +7174,12 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": false,
-    "material_desc": "a snake’s tongue and either a bit of honeycomb or a drop of sweet oil",
+    "material_desc": "A snake’s tongue and either a bit of honeycomb or a drop of sweet oil",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 258
   },
-  {
+ /* {
     "name": "Maximilian's Earthen Grasp",
     "desc": "<p>You choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes 2d6 bludgeoning damage and is restrained for the spell's duration.</p><p>As an action, you can cause the hand to crush the restrained target, who must make a Strength saving throw. It takes 2d6 bludgeoning damage on a failed save, or half as much damage on a successful one.</p><p>To break out, the restrained target can make a Strength check against your spell save DC. On a success, the target escapes and is no longer restrained by the hand.</p><p>As an action, you can cause the hand to reach for a different creature or to move to a different unoccupied space within range. The hand releases a restrained target if you do either.</p>",
     "range": "30 feet",
@@ -7200,11 +7200,11 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a miniature hand sculpted from clay",
+    "material_desc": "A miniature hand sculpted from clay",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 20
-  },
+  }, */
   {
     "name": "Maze",
     "desc": "<p>You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze.</p><p>The target can use its action to attempt to escape. When it does so, it makes a DC 20 Intelligence check. If it succeeds, it escapes, and the spell ends (a minotaur or goristro demon automatically succeeds).</p><p>When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.</p>",
@@ -7225,7 +7225,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 258
   },
   {
@@ -7257,7 +7257,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 259
   },
   {
@@ -7288,9 +7288,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "powdered rhubarb leaf and an adder’s stomach",
+    "material_desc": "Powdered rhubarb leaf and an adder’s stomach",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 259
   },
   {
@@ -7315,9 +7315,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "niter, sulfur, and pine tar formed into a bead",
+    "material_desc": "Niter, sulfur, and pine tar formed into a bead",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 20
   },
   {
@@ -7344,9 +7344,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "two lodestones",
+    "material_desc": "Two lodestones",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 259
   },
   {
@@ -7371,9 +7371,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a short piece of copper wire",
+    "material_desc": "A short piece of copper wire",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 259
   },
   {
@@ -7397,7 +7397,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 259
   },
   {
@@ -7421,7 +7421,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 259
   },
   {
@@ -7447,9 +7447,9 @@ var spells=[
     "verbal": false,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of fleece",
+    "material_desc": "A bit of fleece",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 260
   },
   {
@@ -7474,7 +7474,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 260
   },
   {
@@ -7510,7 +7510,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 260
   },
   {
@@ -7534,7 +7534,7 @@ var spells=[
     "verbal": false,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 260
   },
   {
@@ -7572,7 +7572,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 260
   },
   {
@@ -7604,7 +7604,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 261
   },
   {
@@ -7629,7 +7629,7 @@ var spells=[
     "verbal": false,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 21
   },
   {
@@ -7660,9 +7660,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "several seeds of any moonseed plant and a piece of opalescent feldspar",
+    "material_desc": "Several seeds of any moonseed plant and a piece of opalescent feldspar",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 261
   },
   {
@@ -7685,9 +7685,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a miniature platinum sword with a grip and pommel of copper and zinc, worth 250gp",
+    "material_desc": "A miniature platinum sword with a grip and pommel of copper and zinc, worth 250gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 261
   },
   {
@@ -7711,9 +7711,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon, each item worth at least 5 gp",
+    "material_desc": "A miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon, each item worth at least 5 gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 261
   },
   {
@@ -7737,9 +7737,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite",
+    "material_desc": "A thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 262
   },
   {
@@ -7763,9 +7763,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp",
+    "material_desc": "A miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 262
   },
   {
@@ -7790,9 +7790,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "an iron blade and a small bag containing a mixture of soils—clay, loam, and sand",
+    "material_desc": "An iron blade and a small bag containing a mixture of soils—clay, loam, and sand",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 263
   },
   {
@@ -7824,9 +7824,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes",
+    "material_desc": "A pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 263
   },
   {
@@ -7849,9 +7849,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a small square of silk",
+    "material_desc": "A small square of silk",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 263
   },
   {
@@ -7875,9 +7875,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a small crystal sphere",
+    "material_desc": "A small crystal sphere",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 263
   },
   {
@@ -7900,9 +7900,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic",
+    "material_desc": "A hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 264
   },
   {
@@ -7926,7 +7926,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 264
   },
   {
@@ -7960,9 +7960,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "ashes from a burned leaf of mistletoe and a sprig of spruce",
+    "material_desc": "Ashes from a burned leaf of mistletoe and a sprig of spruce",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 264
   },
   {
@@ -7992,9 +7992,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of sesame seeds",
+    "material_desc": "A pinch of sesame seeds",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 264
   },
   {
@@ -8028,9 +8028,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of fleece",
+    "material_desc": "A bit of fleece",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 264
   },
   {
@@ -8054,7 +8054,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 265
   },
   {
@@ -8078,7 +8078,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 265
   },
   {
@@ -8101,7 +8101,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 265
   },
   {
@@ -8128,9 +8128,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a jewel worth at least 1,000 gp, which the spell consumes",
+    "material_desc": "A jewel worth at least 1,000 gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 265
   },
   {
@@ -8156,9 +8156,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a forked, metal rod worth at least 250 gp, attuned to a particular plane of existence",
+    "material_desc": "A forked, metal rod worth at least 250 gp, attuned to a particular plane of existence",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 266
   },
   {
@@ -8201,7 +8201,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 266
   },
   {
@@ -8227,7 +8227,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 266,
     "direct": [
       {
@@ -8266,9 +8266,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a caterpillar cocoon",
+    "material_desc": "A caterpillar cocoon",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 266
   },
   {
@@ -8291,7 +8291,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 266
   },
   {
@@ -8317,7 +8317,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 266
   },
   {
@@ -8343,7 +8343,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 267
   },
   {
@@ -8367,7 +8367,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 267
   },
   {
@@ -8393,7 +8393,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 267
   },
   {
@@ -8416,7 +8416,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 21
   },
   {
@@ -8440,7 +8440,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 267
   },
   {
@@ -8463,7 +8463,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 267
   },
   {
@@ -8487,7 +8487,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 269
   },
   {
@@ -8511,9 +8511,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of fleece and jade dust worth at least 25 gp",
+    "material_desc": "A bit of fleece and jade dust worth at least 25 gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 269
   },
   {
@@ -8537,9 +8537,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a small replica of you made from materials worth at least 5 gp",
+    "material_desc": "A small replica of you made from materials worth at least 5 gp",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 270
   },
   {
@@ -8578,7 +8578,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 270
   },
   {
@@ -8607,9 +8607,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "holy water or powdered silver and iron, which the spell consumes",
+    "material_desc": "Holy water or powdered silver and iron, which the spell consumes",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 270
   },
   {
@@ -8635,7 +8635,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 270
   },
   {
@@ -8661,10 +8661,10 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 270
   },
-  {
+ /* {
     "name": "Pyrotechnics",
     "desc": "<p>Choose an area of nonmagical flame that you can see and that fits within a 5-foot cube within range. You can extinguish the fire in that area, and you create either fireworks or smoke when you do so.</p><p><span><strong>Fireworks</strong><em><strong>.</strong></em> </span>The target explodes with a dazzling display of colors. Each creature within 10 feet of the target must succeed on a Constitution saving throw or become blinded until the end of your next turn.</p><p><span><strong>Smoke.</strong> </span>Thick black smoke spreads out from the target in a 20-foot radius, moving around corners. The area of the smoke is heavily obscured. The smoke persists for 1 minute or until a strong wind disperses it.</p>",
     "range": "60 feet",
@@ -8686,9 +8686,9 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 21
-  },
+  },  */
   {
     "name": "Raise Dead",
     "desc": "<p>You return a dead creature you touch to life, provided that it has been dead no longer than 10 days. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point.</p><p>This spell also neutralizes any poisons and cures nonmagical diseases that affected the creature at the time it died. This spell doesn't, however, remove magical diseases, curses, or similar effects; if these aren't first removed prior to casting the spell, they take effect when the creature returns to life. The spell can't return an undead creature to life.</p><p>This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival--its head, for instance--the spell automatically fails.</p><p>Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.</p>",
@@ -8714,9 +8714,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a diamond worth at least 500gp, which the spell consumes",
+    "material_desc": "A diamond worth at least 500gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 270
   },
   {
@@ -8740,9 +8740,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "pieces of eggshell from two different kinds of creatures",
+    "material_desc": "Pieces of eggshell from two different kinds of creatures",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 270
   },
   {
@@ -8766,7 +8766,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 271
   },
   {
@@ -8791,7 +8791,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 271
   },
   {
@@ -8816,7 +8816,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 271
   },
   {
@@ -8841,9 +8841,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a prayer wheel and holy water",
+    "material_desc": "A prayer wheel and holy water",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 271
   },
   {
@@ -8866,9 +8866,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "rare oils and unguents worth at least 1,000 gp, which the spell consumes",
+    "material_desc": "Rare oils and unguents worth at least 1,000 gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 271
   },
   {
@@ -8894,7 +8894,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 271
   },
   {
@@ -8918,9 +8918,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a miniature cloak",
+    "material_desc": "A miniature cloak",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 272
   },
   {
@@ -8944,9 +8944,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a diamond worth at least 1,000gp, which the spell consumes",
+    "material_desc": "A diamond worth at least 1,000gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 272
   },
   {
@@ -8971,9 +8971,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a lodestone and iron filings",
+    "material_desc": "A lodestone and iron filings",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 272
   },
   {
@@ -9000,9 +9000,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "diamonds worth 300gp, which the spell consumes",
+    "material_desc": "Diamonds worth 300gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 272
   },
   {
@@ -9025,9 +9025,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "powdered corn extract and a twisted loop of parchment",
+    "material_desc": "Powdered corn extract and a twisted loop of parchment",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 272
   },
   {
@@ -9051,7 +9051,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 272,
     "direct": [
       {
@@ -9087,9 +9087,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a small silver mirror",
+    "material_desc": "A small silver mirror",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 272
   },
   {
@@ -9125,7 +9125,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 273
   },
   {
@@ -9167,9 +9167,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water",
+    "material_desc": "A focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 273
   },
   {
@@ -9193,7 +9193,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 274
   },
   {
@@ -9218,9 +9218,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a dash of talc and a small amount of silver powder",
+    "material_desc": "A dash of talc and a small amount of silver powder",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 274
   },
   {
@@ -9252,7 +9252,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 274
   },
   {
@@ -9284,9 +9284,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a short piece of fine copper wire",
+    "material_desc": "A short piece of fine copper wire",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 274
   },
   {
@@ -9309,9 +9309,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a powder composed of diamond, emerald, ruby, and sapphire dust worth at least 5,000 gp, which the spell consumes",
+    "material_desc": "A powder composed of diamond, emerald, ruby, and sapphire dust worth at least 5,000 gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 274
   },
   {
@@ -9336,7 +9336,7 @@ var spells=[
     "verbal": false,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 21
   },
   {
@@ -9360,9 +9360,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a jade circlet worth at least 1,500 gp, which you must place on your head before you cast the spell",
+    "material_desc": "A jade circlet worth at least 1,500 gp, which you must place on your head before you cast the spell",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 274
   },
   {
@@ -9396,9 +9396,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a burst of mica",
+    "material_desc": "A burst of mica",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 275
   },
   {
@@ -9422,7 +9422,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 275
   },
   {
@@ -9449,9 +9449,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a small parchment with a bit of holy text written on it",
+    "material_desc": "A small parchment with a bit of holy text written on it",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 275
   },
   {
@@ -9474,9 +9474,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "mistletoe, a shamrock leaf, and a club or quarterstaff",
+    "material_desc": "Mistletoe, a shamrock leaf, and a club or quarterstaff",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 275
   },
   {
@@ -9500,7 +9500,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 275
   },
   {
@@ -9533,7 +9533,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 275
   },
   {
@@ -9558,9 +9558,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of fleece",
+    "material_desc": "A bit of fleece",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 276
   },
   {
@@ -9583,9 +9583,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "snow or ice in quantities sufficient to made a life-size copy of the duplicated creature; some hair, fingernail clippings, or other piece of that creature’s body placed inside the snow or ice; and powdered ruby worth 1,500 gp, sprinkled over the duplicate and consumed by the spell",
+    "material_desc": "Snow or ice in quantities sufficient to made a life-size copy of the duplicated creature; some hair, fingernail clippings, or other piece of that creature’s body placed inside the snow or ice; and powdered ruby worth 1,500 gp, sprinkled over the duplicate and consumed by the spell",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 276
   },
   {
@@ -9611,7 +9611,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 22
   },
   {
@@ -9644,9 +9644,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of fine sand, rose petals, or a cricket",
+    "material_desc": "A pinch of fine sand, rose petals, or a cricket",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 276
   },
   {
@@ -9681,9 +9681,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of dust and a few drops of water",
+    "material_desc": "A pinch of dust and a few drops of water",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 276
   },
   {
@@ -9714,9 +9714,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of molasses",
+    "material_desc": "A drop of molasses",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 277
   },
   {
@@ -9741,9 +9741,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a piece of ice or a small white rock chip",
+    "material_desc": "A piece of ice or a small white rock chip",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 22
   },
   {
@@ -9766,7 +9766,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 277
   },
   {
@@ -9803,7 +9803,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 277
   },
   {
@@ -9830,9 +9830,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "burning incense",
+    "material_desc": "Burning incense",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 277
   },
   {
@@ -9857,7 +9857,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 277
   },
   {
@@ -9893,9 +9893,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of bitumen and a spider",
+    "material_desc": "A drop of bitumen and a spider",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 277
   },
   {
@@ -9930,9 +9930,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "seven sharp spines or seven twigs cut peak",
+    "material_desc": "Seven sharp spines or seven twigs cut peak",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 277
   },
   {
@@ -9959,9 +9959,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a holy symbol",
+    "material_desc": "A holy symbol",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 278
   },
   {
@@ -9989,7 +9989,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 278
   },
   {
@@ -10012,7 +10012,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 278
   },
   {
@@ -10050,9 +10050,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a rotten egg or several skunk cabbage leaves",
+    "material_desc": "A rotten egg or several skunk cabbage leaves",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 278
   },
   {
@@ -10081,9 +10081,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "soft clay, to be crudely worked into the desired shape for the stone object",
+    "material_desc": "Soft clay, to be crudely worked into the desired shape for the stone object",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 278
   },
   {
@@ -10123,9 +10123,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "diamond dust worth 100 gp, which the spell consumes",
+    "material_desc": "Diamond dust worth 100 gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 278
   },
   {
@@ -10148,7 +10148,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 279
   },
   {
@@ -10173,7 +10173,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 22
   },
   {
@@ -10206,9 +10206,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": false,
-    "material_desc": "a snake’s tongue and either a bit of honeycomb or a drop of sweet oil",
+    "material_desc": "A snake’s tongue and either a bit of honeycomb or a drop of sweet oil",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 279
   },
   {
@@ -10233,9 +10233,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a magnifying glass",
+    "material_desc": "A magnifying glass",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 279
   },
   {
@@ -10260,9 +10260,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "fire and a piece of sunstone",
+    "material_desc": "Fire and a piece of sunstone",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 279
   },
   {
@@ -10285,9 +10285,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a quiver containing at least one piece of ammunition",
+    "material_desc": "A quiver containing at least one piece of ammunition",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 279
   },
   {
@@ -10313,7 +10313,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "SCAG",
+    "source": ["SCAG"],
     "page": 143
   },
   {
@@ -10338,9 +10338,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "mercury, phosphorus, and powdered diamond and opal with a total value of at least 1,000 gp, which the spell consumes",
+    "material_desc": "Mercury, phosphorus, and powdered diamond and opal with a total value of at least 1,000 gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 280
   },
   {
@@ -10371,9 +10371,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "tiny tarts and a feather that is waved in the air",
+    "material_desc": "Tiny tarts and a feather that is waved in the air",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 280
   },
   {
@@ -10404,7 +10404,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 280
   },
   {
@@ -10427,9 +10427,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pair of linked silver rings",
+    "material_desc": "A pair of linked silver rings",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 281
   },
   {
@@ -10454,7 +10454,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 281
   },
   {
@@ -10479,9 +10479,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": false,
-    "material_desc": "rare chalks and inks infused with precious gems with 50 gp, which the spell consumes",
+    "material_desc": "Rare chalks and inks infused with precious gems with 50 gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 282
   },
   {
@@ -10505,9 +10505,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of mercury",
+    "material_desc": "A drop of mercury",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 282
   },
   {
@@ -10530,7 +10530,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 282
   },
   {
@@ -10553,9 +10553,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "the stem of a plant with thorns",
+    "material_desc": "The stem of a plant with thorns",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 282
   },
   {
@@ -10578,10 +10578,10 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 282
   },
-  {
+ /* {
     "name": "Thunderclap",
     "desc": "<p>You create a burst of thunderous sound that can be heard up to 100 feet away. Each creature within range, other than you, must succeed on a Constitution saving throw or take 1d6 thunder damage.</p><p>The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>",
     "range": "Self (5-foot radius)",
@@ -10605,9 +10605,9 @@ var spells=[
     "verbal": false,
     "material": false,
     "somatic": true,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 22
-  },
+  },  */
   {
     "name": "Thunderwave",
     "desc": "<p>A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.</p><p>In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300 feet.</p>",
@@ -10639,10 +10639,10 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 282
   },
-  {
+ /* {
     "name": "Tidal Wave",
     "desc": "<p>You conjure up a wave of water that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 4d8 bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone. The water then spreads out across the ground in all directions, extinguishing unprotected flames in its area and within 30 feet of it, and then it vanishes.</p>",
     "range": "120 feet",
@@ -10663,11 +10663,11 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of water",
+    "material_desc": "A drop of water",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 22
-  },
+  },  */
   {
     "name": "Time Stop",
     "desc": "<p>You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take 1d4 + 1 turns in a row, during which you can use actions and move as normal.</p><p>This spell ends if one of the actions you use during this period, or any effects that you create during this period, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet from the location where you cast it.</p>",
@@ -10689,7 +10689,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 283
   },
   {
@@ -10716,12 +10716,12 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": false,
-    "material_desc": "a small clay model of a ziggurat",
+    "material_desc": "A small clay model of a ziggurat",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 283
   },
-  {
+ /* {
     "name": "Transmute Rock",
     "desc": "<p>You choose an area of stone or mud that you can see that fits within a 40-foot cube and is within range, and choose one of the following effects.</p><p><span><strong>Transmute Rock to Mud.</strong> </span>Nonmagical rock of any sort in the area becomes an equal volume of thick, flowing mud that remains for the spell's duration.</p><p>The ground in the spell's area becomes muddy enough that creatures can sink into it. Each foot that a creature moves through the mud costs 4 feet of movement, and any creature on the ground when you cast the spell must make a Strength saving throw. A creature must also make the saving throw when it moves into the area for the first time on a turn or ends its turn there. On a failed save, a creature sinks into the mud and is restrained, though it can use an action to end the restrained condition on itself by pulling itself free of the mud.</p><p>If you cast the spell on a ceiling, the mud falls. Any creature under the mud when it falls must make a Dexterity saving throw. A creature takes 4d8 bludgeoning damage on a failed save, or half as much damage on a successful one.</p><p><strong><span>Transmute Mud to Rock. </span></strong>Nonmagical mud or quicksand in the area no more than 10 feet deep transforms into soft stone for the spell's duration. Any creature in the mud when it transforms must make a Dexterity saving throw. On a successful save, a creature is shunted safely to the surface in an unoccupied space. On a failed save, a creature becomes restrained by the rock. A restrained creature, or another creature within reach, can use an action to try to break the rock by succeeding on a DC 20 Strength check or by dealing damage to it. The rock has AC 15 and 25 hit points, and it is immune to poison and psychic damage.</p>",
     "range": "120 feet",
@@ -10742,11 +10742,11 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "clay and water",
+    "material_desc": "Clay and water",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 22
-  },
+  },  */
   {
     "name": "Transport via Plants",
     "desc": "<p>This spell creates a magical link between a Large or larger inanimate plant within range and another plant, at any distance, on the same plane of existence. You must have seen or touched the destination plant at least once before. For the duration, any creature can step into the target plant and exit from the destination plant by using 5 feet of movement.</p>",
@@ -10767,7 +10767,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 283
   },
   {
@@ -10790,7 +10790,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 0
   },
   {
@@ -10828,7 +10828,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 283
   },
   {
@@ -10855,7 +10855,7 @@ var spells=[
     "somatic": true,
     "material_desc": "A drop of mercury, a dollop of gum arabic, and a wisp of smoke",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 283
   },
   {
@@ -10879,9 +10879,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a sprinkle of holy water and diamonds worth at least 25,000gp, which the spell consumes",
+    "material_desc": "A sprinkle of holy water and diamonds worth at least 25,000gp, which the spell consumes",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 284
   },
   {
@@ -10908,9 +10908,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "an ointment for the eyes that costs 25gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell",
+    "material_desc": "An ointment for the eyes that costs 25gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 284
   },
   {
@@ -10936,7 +10936,7 @@ var spells=[
     "verbal": false,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 284
   },
   {
@@ -10959,7 +10959,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 284
   },
   {
@@ -10985,9 +10985,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a piece of string and a bit of wood",
+    "material_desc": "A piece of string and a bit of wood",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 284
   },
   {
@@ -11012,7 +11012,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 285,"direct":[{"type":"Necrotic","damage":"Xd6"},{"type":"Heal","damage":"Half"}]
   },
   {
@@ -11036,10 +11036,10 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 285
   },
-  {
+/*  {
     "name": "Vitriolic Sphere",
     "desc": "<p>You point at a location within range, and a glowing, 1-foot-diameter ball of emerald acid streaks there and explodes in a 20-foot-radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 10d4 acid damage and another 5d4 acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn.</p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by 2d4 for each slot level above 4th.</p>",
@@ -11061,11 +11061,11 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of a giant slug bile",
+    "material_desc": "A drop of a giant slug bile",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 23
-  },
+  }, */
   {
     "name": "Wall of Fire",
     "desc": "<p>You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.</p><p>When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes 5d8 fire damage, or half as much damage on a successful save.</p><p>One side of the wall, selected by you when you cast this spell, deals 5d8 fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.</p>",
@@ -11100,9 +11100,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a small piece of phosphorus",
+    "material_desc": "A small piece of phosphorus",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 285
   },
   {
@@ -11125,9 +11125,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of powder made by crushing a clear gemstone",
+    "material_desc": "A pinch of powder made by crushing a clear gemstone",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 285
   },
   {
@@ -11151,9 +11151,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a small piece of quartz",
+    "material_desc": "A small piece of quartz",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 285
   },
   {
@@ -11176,9 +11176,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a handful of sand",
+    "material_desc": "A handful of sand",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 23
   },
   {
@@ -11207,9 +11207,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a small block of granite",
+    "material_desc": "A small block of granite",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 287
   },
   {
@@ -11233,9 +11233,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a handful of thorns",
+    "material_desc": "A handful of thorns",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 287
   },
   {
@@ -11260,9 +11260,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of water",
+    "material_desc": "A drop of water",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 23
   },
   {
@@ -11285,12 +11285,12 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pair of platinum rings worth at least 50gp each, which you and the target must wear for the duration",
+    "material_desc": "A pair of platinum rings worth at least 50gp each, which you and the target must wear for the duration",
     "material_cost": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 287
   },
-  {
+/*  {
     "name": "Warding Wind",
     "desc": "<p>A strong wind (20 miles per hour) blows around you in a 10-foot radius and moves with you, remaining centered on you. The wind lasts for the spell's duration.</p><p>The wind has the following effects:</p><ul><li>It deafens you and other creatures in its area.</li><li>It extinguishes unprotected flames in its area that are torch-sized or smaller.</li><li>It hedges out vapor, gas, and fog that can be dispersed by strong wind.</li><li>The area is difficult terrain for creatures other than you.</li><li>The attack rolls of ranged weapon attacks have disadvantage if the attacks pass in or out of the wind.</li></ul>",
     "range": "Self",
@@ -11312,9 +11312,9 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 23
-  },
+  },  */
   {
     "name": "Water Breathing",
     "desc": "<p>This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.</p>",
@@ -11342,9 +11342,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a short piece of reed or straw",
+    "material_desc": "A short piece of reed or straw",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 287
   },
   {
@@ -11375,10 +11375,10 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 287
   },
-  {
+ /* {
     "name": "Watery Sphere",
     "desc": "<p>You conjure up a sphere of water with a 5-foot radius at a point you can see within range. The sphere can hover but no more than 10 feet off the ground. The sphere remains for the spell's duration.</p><p>Any creature in the sphere's space must make a Strength saving throw. On a successful save, a creature is ejected from that space to the nearest unoccupied space of the creature's choice outside the sphere. A Huge or larger creature succeeds on the saving throw automatically, and a Large or smaller creature can choose to fail it. On a failed save, a creature is restrained by the sphere and is engulfed by the water. At the end of each of its turns, a restrained target can repeat the saving throw, ending the effect on itself on a success.</p><p>The sphere can restrain as many as four Medium or smaller creatures or one Large creature. If the sphere restrains a creature that causes it to exceed this capacity, a random creature that was already restrained by the sphere falls out of it and lands prone in a space within 5 feet of it.</p><p>As an action, you can move the sphere up to 30 feet in a straight line. If it moves over a pit, a cliff, or other drop-off, it safely descends until it is hovering 10 feet above the ground. Any creature restrained by the sphere moves with it. You can ram the sphere into creatures, forcing them to make the saving throw.</p><p>When the spell ends, the sphere falls to the ground and extinguishes all normal flames within 30 feet of it. Any creature restrained by the sphere is knocked prone in the space where it falls. The water then vanishes.</p>",
     "range": "90 feet",
@@ -11400,11 +11400,11 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a droplet of water",
+    "material_desc": "A droplet of water",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 23
-  },
+  },  */
   {
     "name": "Web",
     "desc": "<p>You conjure a mass of thick, sticky webbing at a point of your choice within range. The webs fill a 20- foot cube from that point for the duration. The webs are difficult terrain and lightly obscure their area.</p><p>If the webs aren't anchored between two solid masses (such as walls or trees) or layered across a floor, wall, or ceiling, the conjured web collapses on itself, and the spell ends at the start of your next turn. Webs layered over a flat surface have a depth of 5 feet.</p><p>Each creature that starts its turn in the webs or that enters them during its turn must make a Dexterity saving throw. On a failed save, the creature is restrained as long as it remains in the webs or until it breaks free.</p><p>A creature restrained by the webs can use its action to make a Strength check against your spell save DC. If it succeeds, it is no longer restrained.</p><p>The webs are flammable. Any 5-foot cube of webs exposed to fire burns away in 1 round, dealing 2d4 fire damage to any creature that starts its turn in the fire.</p>",
@@ -11433,9 +11433,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of spiderweb",
+    "material_desc": "A bit of spiderweb",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 287
   },
   {
@@ -11458,10 +11458,10 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 288
   },
-  {
+ /* {
     "name": "Whirlwind",
     "desc": "<p>A whirlwind howls down to a point that you can see on the ground within range. The whirlwind is a 10-foot-radius, 30-foot-high cylinder centered on that point. Until the spell ends, you can use your action to move the whirlwind up to 30 feet in any direction along the ground. The whirlwind sucks up any Medium or smaller objects that aren't secured to anything and that aren't worn or carried by anyone.</p><p>A creature must make a Dexterity saving throw the first time on a turn that it enters the whirlwind or that the whirlwind enters its space, including when the whirlwind first appears. A creature takes 10d6 bludgeoning damage on a failed save, or half as much damage on a successful one. In addition, a Large or smaller creature that fails the save must succeed on a Strength saving throw or become restrained in the whirlwind until the spell ends. When a creature starts its turn restrained by the whirlwind, the creature is pulled 5 feet higher inside it, unless the creature is at the top. A restrained creature moves with the whirlwind and falls when the spell ends, unless the creature has some means to stay aloft.</p><p>A restrained creature can use an action to make a Strength or Dexterity check against your spell save DC. If successful, the creature is no longer restrained by the whirlwind and is hurled 3d6 x 10 feet away from it in a random direction.</p>",
     "range": "300 feet",
@@ -11482,11 +11482,11 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": false,
-    "material_desc": "a piece of straw",
+    "material_desc": "A piece of straw",
     "material_cost": false,
-    "source": "EE PC",
+    "source": ["EE PC"],
     "page": 24
-  },
+  },  */
   {
     "name": "Wind Walk",
     "desc": "<p>You and up to ten willing creatures you can see within range assume a gaseous form for the duration, appearing as wisps of cloud. While in this cloud form, a creature has a flying speed of 300 feet and has resistance to damage from nonmagical weapons. The only actions a creature can take in this form are the Dash action or to revert to its normal form. Reverting takes 1 minute, during which time a creature is incapacitated and can't move. Until the spell ends, a creature can revert to cloud form, which also requires the 1-minute transformation.</p><p>If a creature is in cloud form and flying when the effect ends, the creature descends 60 feet per round for 1 minute until it lands, which it does safely. If it can't land after 1 minute, the creature falls the remaining distance.</p>",
@@ -11507,9 +11507,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "fire and holy water",
+    "material_desc": "Fire and holy water",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 288
   },
   {
@@ -11540,9 +11540,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a tiny fan and a feather of exotic origin",
+    "material_desc": "A tiny fan and a feather of exotic origin",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 288
   },
   {
@@ -11566,7 +11566,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 288
   },
   {
@@ -11592,9 +11592,9 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a twig from a tree that has been struck by lightning",
+    "material_desc": "A twig from a tree that has been struck by lightning",
     "material_cost": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 289,
     "direct": [
       {
@@ -11629,7 +11629,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 289
   },
   {
@@ -11652,7 +11652,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": false,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 289
   },
   {
@@ -11680,7 +11680,7 @@ var spells=[
     "verbal": true,
     "material": false,
     "somatic": true,
-    "source": "PHB",
+    "source": ["PHB"],
     "page": 289
   },
   {
@@ -11688,7 +11688,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Ceremony",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 hour",
     "class": [
       "Cleric",
@@ -11715,7 +11715,7 @@ var spells=[
     "Version": "2.4.1",
     "name": "Mass polymorph",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Bard",
@@ -11727,7 +11727,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a caterpillar cocoon",
+    "material_desc": "A caterpillar cocoon",
     "material_cost": false,
     "desc": "<p>You transform up to ten creatures of your choice that you can see within range. An unwilling target must succeed on a Wisdom saving throw to resist the transformation. An unwilling shapechanger automatically succeeds on the save.</p><p>-Each target assumes a beast form of your choice, and you can choose the same form or different ones for each target. The new form can be any beast you have seen whose challenge rating is equal to or less than the target’s (or half the target’s level, if the target doesn’t have a challenge rating). The target’s game statistics, including mental ability scores, are replaced by the statistics of the chosen beast, but the target retains its hit points, alignment, and personality.</p><p>-Each target gains a number of temporary hit points equal to the hit points of its new form. These temporary hit points can’t be replaced by temporary hit points from another source. A target reverts to its normal form when it has no more temporary hit points or it dies. If the spell ends before then, the creature loses all its temporary hit points and reverts to its normal form.</p><p>-The creature is limited in the actions it can perform by the nature of its new form. It can’t speak, cast spells, or do anything else that requires hands or speech.</p><p>-The target’s gear melds into the new form. The target can’t activate, use, wield, or otherwise benefit from any of its equipment.</p>",
     "duration": "Concentration, up to 1 hour",
@@ -11744,7 +11744,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Transmute rock",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -11755,7 +11755,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "clay and water",
+    "material_desc": "Clay and water",
     "material_cost": false,
     "desc": "<p>You choose an area of stone or mud that you can see that fits within a 40-foot cube and is within range, and choose one of the following effects.</p><p><b>Transmute Rock to Mud.</b> Nonmagical rock of any sort in the area becomes an equal volume of thick, flowing mud that remains for the spell’s duration.</p><p>The ground in the spell’s area becomes muddy enough that creatures can sink into it. Each foot that a creature moves through the mud costs 4 feet of movement, and any creature on the ground when you cast the spell must make a Strength saving throw. A creature must also make the saving throw when it moves into the area for the first time on a turn or ends its turn there. On a failed save, a creature sinks into the mud and is restrained, though it can use an action to end the restrained condition on itself by pulling itself free of the mud.</p><p>If you cast the spell on a ceiling, the mud falls. Any creature under the mud when it falls must make a Dexterity saving throw. A creature takes 4d8 bludgeoning damage on a failed save, or half as much damage on a successful one.</p><p><b>Transmute Mud to Rock.</b> Nonmagical mud or quicksand in the area no more than 10 feet deep transforms into soft stone for the spell’s duration. Any creature in the mud when it transforms must make a Dexterity saving throw. On a successful save, a creature is shunted safely to the surface in an unoccupied space. On a failed save, a creature becomes restrained by the rock. A restrained creature, or another creature within reach, can use an action to try to break the rock by succeeding on a DC 20 Strength check or by dealing damage to it. The rock has AC 15 and 25 hit points, and it is immune to poison and psychic damage.</p>",
     "duration": "Until dispelled",
@@ -11771,7 +11771,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Find Greater Steed",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "10 minutes",
     "class": [
       "Paladin"
@@ -11795,7 +11795,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Flame arrows",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -11824,7 +11824,7 @@ var spells=[
     "Version": "2.4.1",
     "name": "Enemies abound",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Bard",
@@ -11851,7 +11851,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Investiture of Ice",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -11879,7 +11879,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Chaos Bolt",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer"
@@ -11904,7 +11904,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Shadow of Moil",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Warlock"
@@ -11914,7 +11914,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "an undead eyeball encased in a gem worth at least 150 gp",
+    "material_desc": "An undead eyeball encased in a gem worth at least 150 gp",
     "material_cost": true,
     "desc": "<p>Flame-like shadows wreathe your body until the spell ends, causing you to become heavily obscured to others. The shadows turn dim light within 10 feet of you into darkness, and bright light in the same area to dim light.</p><p>- Until the spell ends, you have resistance to radiant damage. In addition, whenever a creature within 10 feet of you hits you with an attack, the shadows lash out at that creature, dealing it 2d8 necrotic damage.</p>",
     "duration": "Concentration, up to 1 minute",
@@ -11931,7 +11931,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Gust",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -11957,7 +11957,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Aganazzar's Scorcher",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -11968,7 +11968,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a red dragon's scale",
+    "material_desc": "A red dragon's scale",
     "material_cost": false,
     "desc": "<p>A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one.</p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>",
@@ -11985,7 +11985,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Mental Prison",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -12012,7 +12012,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Dragon's Breath",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 bonus action",
     "class": [
       "Sorcerer",
@@ -12023,7 +12023,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a hot pepper",
+    "material_desc": "A hot pepper",
     "material_cost": false,
     "desc": "<p>You touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose acid, cold, fire, lightning, or poison. Until the spell ends, the creature can use an action to exhale energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save, or half as much damage on a successful one.</p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>",
@@ -12041,7 +12041,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Scatter",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -12067,7 +12067,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Soul Cage",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 reaction, which you take when a humanoid you can see within 60 feet of you dies",
     "class": [
       "Warlock",
@@ -12078,7 +12078,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a tiny silver cage worth 100 gp",
+    "material_desc": "A tiny silver cage worth 100 gp",
     "material_cost": true,
     "desc": "<p>This spell snatches the soul of a humanoid as it dies and traps it inside the tiny cage you use for the material component. A stolen soul remains inside the cage until the spell ends or until you destroy the cage, which ends the spell. While you have a soul inside the cage, you can exploit it in any of the ways described below. You can use a trapped soul up to six times. Once you exploit a soul for the sixth time, it is released, and the spell ends. While a soul is trapped, the dead humanoid it came from can’t be revived.</p><p>- <b>Steal Life.</b> You can use a bonus action to drain vigor from the soul and regain 2d8 hit points.</p><p>- <b>Query Soul.</b> You ask the soul a question (no action required) and receive a brief telepathic answer, which you can understand regardless of the language used. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.</p><p>- <b>Borrow Experience.</b> You can use a bonus action to bolster yourself with the soul’s life experience, making your next attack roll, ability check, or saving throw with advantage. If you don’t use this benefit before the start of your next turn, it is lost.</p><p>- <b>Eyes of the Dead.</b> You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you’re currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were concentrating on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses.</p><p>- A creature that can see the sensor (such as one using see invisibility or truesight) sees a translucent image of the tormented humanoid whose soul you caged.</p>",
     "duration": "8 hours",
@@ -12094,7 +12094,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Infestation",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -12107,7 +12107,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a living flea",
+    "material_desc": "A living flea",
     "material_cost": false,
     "desc": "<p>You cause a cloud of mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw, or it takes 1d6 poison damage and moves 5 feet in a random direction if it can move and its speed is at least 5 feet. Roll a d4 for the direction: 1, north; 2, south; 3, east; or 4, west. This movement doesn’t provoke opportunity attacks, and if the direction rolled is blocked, the target doesn’t move.</p><p>- The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>",
     "duration": "Instantaneous",
@@ -12123,7 +12123,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Bones of the earth",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid"
@@ -12148,7 +12148,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Maximillan's Earthen Grasp",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -12159,7 +12159,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a miniature hand sculpted from clay",
+    "material_desc": "A miniature hand sculpted from clay",
     "material_cost": false,
     "desc": "<p>You choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes 2d6 bludgeoning damage and is restrained for the spell’s duration.</p><p>- As an action, you can cause the hand to crush the restrained target, which must make a Strength saving throw. The target takes 2d6 bludgeoning damage on a failed save, or half as much damage on a successful one.</p><p>- To break out, the restrained target can use its action to make a Strength check against your spell save DC. On a success, the target escapes and is no longer restrained by the hand.</p><p>- As an action, you can cause the hand to reach for a different creature or to move to a different unoccupied space within range. The hand releases a restrained target if you do either.</p>",
     "duration": "Concentration, up to 1 minute",
@@ -12176,7 +12176,7 @@ var spells=[
     "Version": "2.4.1",
     "name": "Warding wind",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Bard",
@@ -12204,7 +12204,7 @@ var spells=[
     "Version": "2.4.1",
     "name": "Charm monster",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Bard",
@@ -12233,7 +12233,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Infernal Calling",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 minute",
     "class": [
       "Warlock",
@@ -12244,7 +12244,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a ruby worht at least 999 gp",
+    "material_desc": "A ruby worht at least 999 gp",
     "material_cost": true,
     "desc": "<p>Uttering a dark incantation, you summon a devil from the Nine Hells. You choose the devil’s type, which must be one of challenge rating 6 or lower, such as a barbed devil or a bearded devil. The devil appears in an unoccupied space that you can see within range. The devil disappears when it drops to 0 hit points or when the spell ends.</p><p>- The devil is unfriendly toward you and your companions. Roll initiative for the devil, which has its own turns. It is under the Dungeon Master’s control and acts according to its nature on each of its turns, which might result in its attacking you if it thinks it can prevail, or trying to tempt you to undertake an evil act in exchange for limited service. The DM has the creature’s statistics.</p><p>- On each of your turns, you can try to issue a verbal command to the devil (no action required by you). It obeys the command if the likely outcome is in accordance with its desires, especially if the result would draw you toward evil. Otherwise, you must make a Charisma (Deception, Intimidation, or Persuasion) check contested by its Wisdom (Insight) check. You make the check with advantage if you say the devil’s true name. If your check fails, the devil becomes immune to your verbal commands for the duration of the spell, though it can still carry out your commands if it chooses. If your check succeeds, the devil carries out your command — such as “attack my enemies,” “explore the room ahead,” or “bear this message to the queen” — until it completes the activity, at which point it returns to you to report having done so.</p><p>- If your concentration ends before the spell reaches its full duration, the devil doesn’t disappear if it has become immune to your verbal commands. Instead, it acts in whatever manner it chooses for 3d6 minutes, and then it disappears.</p><p>- If you possess an individual devil’s talisman, you can summon that devil if it is of the appropriate challenge rating plus 1, and it obeys all your commands, with no Charisma checks required.</p></p>",
     "higher_level": "<p> When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th.</p>",
@@ -12262,7 +12262,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Snare",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 minute",
     "class": [
       "Druid",
@@ -12290,7 +12290,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Control Flames",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -12316,7 +12316,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Primordial Ward",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid"
@@ -12341,7 +12341,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Investiture of flame",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -12369,7 +12369,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Zephyr Strike",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 bonus action",
     "class": [
       "Ranger"
@@ -12394,7 +12394,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Melf's Minute Meteors",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -12405,7 +12405,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "niter, sulfur, and pine tar formed into a bead",
+    "material_desc": "Niter, sulfur, and pine tar formed into a bead",
     "material_cost": false,
     "desc": "<p>You create six tiny meteors in your space. They float in the air and orbit you for the spell’s duration. When you cast the spell — and as a bonus action on each of your turns thereafter — you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.</p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 4th level or higher, the number of meteors created increases by two for each slot level above 3rd.</p>",
@@ -12423,7 +12423,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Tenser's Transformation",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Wizard"
@@ -12433,7 +12433,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a few hairs from a bull",
+    "material_desc": "A few hairs from a bull",
     "material_cost": false,
     "desc": "<p>You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can’t cast spells, and you gain the following benefits:</p><p>-    •You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.</p><p>   •You have advantage on attack rolls that you make with simple and martial weapons.</p><p>   •When you hit a target with a weapon attack, that target takes an extra 2d12 force damage.</p><p>   •You have proficiency with all armor, shields, simple weapons, and martial weapons.</p><p>   •You have proficiency in Strength and Constitution saving throws.</p><p>   •You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.</p><p>- Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion.</p>",
     "duration": "Concentration, up to 10 minutes",
@@ -12450,7 +12450,7 @@ var spells=[
     "Version": "2.4.1",
     "name": "Catnap",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Bard",
@@ -12462,7 +12462,7 @@ var spells=[
     "verbal": false,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of sand",
+    "material_desc": "A pinch of sand",
     "material_cost": false,
     "desc": "<p>You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall unconscious for the spell’s duration. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains unconscious for the full duration, that target gains the benefit of a short rest, and it can’t be affected by this spell again until it finishes a long rest.</p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd.</p>",
@@ -12479,7 +12479,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Mind Spike",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -12507,7 +12507,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Steel Wind Strike",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Ranger",
@@ -12518,7 +12518,7 @@ var spells=[
     "verbal": false,
     "material": true,
     "somatic": true,
-    "material_desc": "a melee weapons worth at least 1 sp",
+    "material_desc": "A melee weapons worth at least 1 sp",
     "material_cost": true,
     "desc": "<p>You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes 6d10 force damage.</p><p>You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed.</p>",
     "duration": "Instantaneous",
@@ -12534,7 +12534,7 @@ var spells=[
     "Version": "2.4.1",
     "name": "Skywrite",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Bard",
@@ -12561,7 +12561,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Elemental bane",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -12589,7 +12589,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Druid Grove",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "10 minutes",
     "class": [
       "Druid"
@@ -12599,7 +12599,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "mistletoe, which the spell consumes, that was harvested with a golden sickle under the light of a full moon",
+    "material_desc": "Mistletoe, which the spell consumes, that was harvested with a golden sickle under the light of a full moon",
     "material_cost": false,
     "desc": "<p>You invoke the spirits of nature to protect an area outdoors or underground. The area can be as small as a 30-foot cube or as large as a 90-foot cube. Buildings and other structures are excluded from the affected area. If you cast this spell in the same area every day for a year, the spell lasts until dispelled.</p><p>The spell creates the following effects within the area. When you cast this spell, you can specify creatures as friends who are immune to the effects. You can also specify a password that, when spoken aloud, makes the speaker immune to these effects.</p><p>The entire warded area radiates magic. A dispel magic cast on the area, if successful, removes only one of the following effects, not the entire area. That spell’s caster chooses which effect to end. Only when all its effects are gone is this spell dispelled.</p><p><b>Solid Fog.</b> You can fill any number of 5-foot squares on the ground with thick fog, making them heavily obscured. The fog reaches 10 feet high. In addition, every foot of movement through the fog costs 2 extra feet. To a creature immune to this effect, the fog obscures nothing and looks like soft mist, with motes of green light floating in the air.</p><p><b>Grasping Undergrowth.</b> You can fill any number of 5-foot squares on the ground that aren’t filled with fog with grasping weeds and vines, as if they were affected by an <b>entangle</b> spell. To a creature immune to this effect, the weeds and vines feel soft and reshape themselves to serve as temporary seats or beds.</p><p><b>Grove Guardians.</b> You can animate up to four trees in the area, causing them to uproot themselves from the ground. These trees have the same statistics as an <b>awakened tree</b>, which appears in the Monster Manual, except they can’t speak, and their bark is covered with druidic symbols. If any creature not immune to this effect enters the warded area, the grove guardians fight until they have driven off or slain the intruders. The grove guardians also obey your spoken commands (no action required by you) that you issue while in the area. If you don’t give them commands and no intruders are present, the grove guardians do nothing. The grove guardians can’t leave the warded area. When the spell ends, the magic animating them disappears, and the trees take root again if possible.</p><p><b>Additional Spell Effect.</b> You can place your choice of one of the following magical effects within the warded area:</p><p>•A constant <b>gust of wind</b> in two locations of your choice</p><p>•<b>Spike growth</b> in one location of your choice</p><p>•<b>Wind wall</b> in two locations of your choice</p><p>To a creature immune to this effect, the winds are a fragrant, gentle breeze, and the area of <b>spike growth</b> is harmless.</p>",
     "duration": "24 hours",
@@ -12615,7 +12615,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Cause Fear",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Warlock",
@@ -12642,7 +12642,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Mighty Fortress",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 minute",
     "class": [
       "Wizard"
@@ -12652,7 +12652,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a diamond worth at least 500 gp, which the spell consumes",
+    "material_desc": "A diamond worth at least 500 gp, which the spell consumes",
     "material_cost": true,
     "desc": "<p>A fortress of stone erupts from a square area of ground of your choice that you can see within range. The area is 120 feet on each side, and it must not have any buildings or other structures on it. Any creatures in the area are harmlessly lifted up as the fortress rises.</p><p>- The fortress has four turrets with square bases, each one 20 feet on a side and 30 feet tall, with one turret on each corner. The turrets are connected to each other by stone walls that are each 80 feet long, creating an enclosed area. Each wall is 1 foot thick and is composed of panels that are 10 feet wide and 20 feet tall. Each panel is contiguous with two other panels or one other panel and a turret. You can place up to four stone doors in the fortress’s outer wall.</p><p>- A small keep stands inside the enclosed area. The keep has a square base that is 50 feet on each side, and it has three floors with 10-foot-high ceilings. Each of the floors can be divided into as many rooms as you like, provided each room is at least 5 feet on each side. The floors of the keep are connected by stone staircases, its walls are 6 inches thick, and interior rooms can have stone doors or open archways as you choose. The keep is furnished and decorated however you like, and it contains sufficient food to serve a nine-course banquet for up to 100 people each day. Furnishings, food, and other objects created by this spell crumble to dust if removed from the fortress.</p><p>- A staff of one hundred invisible servants obeys any command given to them by creatures you designate when you cast the spell. Each servant functions as if created by the unseen servant spell.</p><p>- The walls, turrets, and keep are all made of stone that can be damaged. Each 10-foot-by-10-foot section of stone has AC 15 and 30 hit points per inch of thickness. It is immune to poison and psychic damage. Reducing a section of stone to 0 hit points destroys it and might cause connected sections to buckle and collapse at the DM’s discretion.</p><p>- After 7 days or when you cast this spell somewhere else, the fortress harmlessly crumbles and sinks back into the ground, leaving any creatures that were inside it safely on the ground.</p><p>- Casting this spell on the same spot once every 7 days for a year makes the fortress permanent.</p>",
     "duration": "Instantaneous",
@@ -12668,7 +12668,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Enervation",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -12696,7 +12696,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Abi-Dalzim's Horrid Writing",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -12707,7 +12707,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of sponge",
+    "material_desc": "A bit of sponge",
     "material_cost": false,
     "desc": "<p>You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren’t affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 12d8 necrotic damage on a failed save, or half as much damage on a successful one.</p><p>Nonmagical plants in the area that aren’t creatures, such as trees and shrubs, wither and die instantly.</p>",
     "duration": "Instantaneous",
@@ -12723,7 +12723,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Absorb elements",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 reaction, which you take when you take acid, cold, fire, lightning, or thunder damage",
     "class": [
       "Druid",
@@ -12751,7 +12751,7 @@ var spells=[
     "Version": "2.4.1",
     "name": "Skill empowerment",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Bard",
@@ -12778,7 +12778,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Dawn",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Cleric",
@@ -12789,7 +12789,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a sunburst pendant worth at least 100 gp",
+    "material_desc": "A sunburst pendant worth at least 100 gp",
     "material_cost": true,
     "desc": "<p>The light of dawn shines down on a location you specify within range. Until the spell ends, a 30-foot-radius, 40-foot-high cylinder of bright light glimmers there. This light is sunlight.</p><p>When the cylinder appears, each creature in it must make a Constitution saving throw, taking 4d10 radiant damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw whenever it ends its turn in the cylinder.</p><p>If you’re within 60 feet of the cylinder, you can move it up to 60 feet as a bonus action on your turn.</p>",
     "duration": "Concentration, up to 1 minute",
@@ -12806,7 +12806,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Wall of Water",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -12818,7 +12818,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of water",
+    "material_desc": "A drop of water",
     "material_cost": false,
     "desc": "<p>You create a wall of water on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 1 foot thick, or you can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall vanishes when the spell ends. The wall’s space is difficult terrain.</p><p>  </p><p>Any ranged weapon attack that enters the wall’s space has disadvantage on the attack roll, and fire damage is halved if the fire effect passes through the wall to reach its target. Spells that deal cold damage that pass through the wall cause the area of the wall they pass through to freeze solid (at least a 5-foot-square section is frozen). Each 5-foot-square frozen section has AC 5 and 15 hit points. Reducing a frozen section to 0 hit points destroys it. When a section is destroyed, the wall’s water doesn’t fill it.</p>",
     "duration": "Concentration, up to 10 minutes",
@@ -12835,7 +12835,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Beast Bond",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -12846,7 +12846,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a bit of fur wrapped in a cloth",
+    "material_desc": "A bit of fur wrapped in a cloth",
     "material_cost": false,
     "desc": "<p>You establish a telepathic link with one beast you touch that is friendly to you or charmed by you. The spell fails if the beast’s Intelligence score is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see.</p>",
     "duration": "Concentration, up to 10 minutes",
@@ -12863,7 +12863,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Healing spirit",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 bonus action",
     "class": [
       "Druid",
@@ -12890,7 +12890,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Danse Macabre",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Warlock",
@@ -12917,7 +12917,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Snilloc's Snowball Swarm",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -12928,7 +12928,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a piece of ice or a small white rock chip",
+    "material_desc": "A piece of ice or a small white rock chip",
     "material_cost": false,
     "desc": "<p>A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 5-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes 3d6 cold damage on a failed save, or half as much damage on a successful one.</p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>",
@@ -12945,7 +12945,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Storm Sphere",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -12972,7 +12972,7 @@ var spells=[
     "Version": "2.4.1",
     "name": "Psychic scream",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Bard",
@@ -12999,7 +12999,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Shape water",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -13025,7 +13025,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Tidal Wave",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -13037,7 +13037,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of water",
+    "material_desc": "A drop of water",
     "material_cost": false,
     "desc": "<p>You conjure up a wave of water that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 4d8 bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn’t knocked prone. The water then spreads out across the ground in all directions, extinguishing unprotected flames in its area and within 30 feet of it, and then it vanishes.</p>",
     "duration": "Instantaneous",
@@ -13053,7 +13053,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Ice Knife",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -13065,7 +13065,7 @@ var spells=[
     "verbal": false,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of water or a piece of ice",
+    "material_desc": "A drop of water or a piece of ice",
     "material_cost": false,
     "desc": "<p>You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 cold damage.</p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot level above 1st.</p>",
@@ -13082,7 +13082,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Vitriolic Sphere",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -13093,7 +13093,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a drop of giant slug bile",
+    "material_desc": "A drop of giant slug bile",
     "material_cost": false,
     "desc": "<p>You point at a location within range, and a glowing, 1-foot-diameter ball of emerald acid streaks there and explodes in a 20-foot-radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 10d4 acid damage and another 5d4 acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn.</p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by 2d4 for each slot level above 4th.</p>",
@@ -13110,7 +13110,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Earthbind",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -13138,7 +13138,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Whirlwind",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -13150,7 +13150,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": false,
-    "material_desc": "a piece of straw",
+    "material_desc": "A piece of straw",
     "material_cost": false,
     "desc": "<p>A whirlwind howls down to a point that you can see on the ground within range. The whirlwind is a 10-foot-radius, 30-foot-high cylinder centered on that point. Until the spell ends, you can use your action to move the whirlwind up to 30 feet in any direction along the ground. The whirlwind sucks up any Medium or smaller objects that aren’t secured to anything and that aren’t worn or carried by anyone.</p><p>- A creature must make a Dexterity saving throw the first time on a turn that it enters the whirlwind or that the whirlwind enters its space, including when the whirlwind first appears. A creature takes 10d6 bludgeoning damage on a failed save, or half as much damage on a successful one. In addition, a Large or smaller creature that fails the save must succeed on a Strength saving throw or become restrained in the whirlwind until the spell ends. When a creature starts its turn restrained by the whirlwind, the creature is pulled 5 feet higher inside it, unless the creature is at the top. A restrained creature moves with the whirlwind and falls when the spell ends, unless the creature has some means to stay alofeet</p><p>- A restrained creature can use an action to make a Strength or Dexterity check against your spell save DC. If successful, the creature is no longer restrained by the whirlwind and is hurled 3d6 × 10 feet away from it in a random direction.</p>",
     "duration": "Concentration, up to 1 minute",
@@ -13167,7 +13167,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Summon Lesser Demons",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Warlock",
@@ -13178,7 +13178,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a vial of blood from a humanoid killed within the past 24 hours",
+    "material_desc": "A vial of blood from a humanoid killed within the past 24 hours",
     "material_cost": false,
     "desc": "<p>You utter foul words, summoning demons from the chaos of the Abyss. Roll on the following table to determine what appears.</p><p>- <b>d6</b>               <b>Demons Summoned</b></p><p>1–2            Two demons of challenge rating 1 or lower</p><p>3–4            Four demons of challenge rating 1/2 or lower</p><p>5–6            Eight demons of challenge rating 1/4 or lower</p><p>- The DM chooses the demons, such as manes or dretches, and you choose the unoccupied spaces you can see within range where they appear. A summoned demon disappears when it drops to 0 hit points or when the spell ends.</p><p>- The demons are hostile to all creatures, including you. Roll initiative for the summoned demons as a group, which has its own turns. The demons pursue and attack the nearest non-demons to the best of their ability.</p><p>- As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demons can’t cross the circle or harm it, and they can’t target anyone within it. </p><p>Using the material component in this manner consumes it when the spell ends.</p></p>",
     "higher_level": "<p> When you cast this spell using a spell slot of 6th or 7th level, you summon twice as many demons. If you cast it using a spell slot of 8th or 9th level, you summon three times as many demons.</p>",
@@ -13196,7 +13196,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Power Word Pain",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -13222,7 +13222,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Frostbite",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -13249,7 +13249,7 @@ var spells=[
     "Version": "2.4.1",
     "name": "Synaptic static",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Bard",
@@ -13276,7 +13276,7 @@ var spells=[
     "Version": "2.4.1",
     "name": "Pyrotechnics",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Bard",
@@ -13302,7 +13302,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Tiny Servant",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 minute",
     "class": [
       "Wizard"
@@ -13327,7 +13327,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Word of radiance",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Cleric"
@@ -13337,7 +13337,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": false,
-    "material_desc": "a holy symbol",
+    "material_desc": "A holy symbol",
     "material_cost": false,
     "desc": "<p>You utter a divine word, and burning radiance erupts from you. Each creature of your choice that you can see within range must succeed on a Constitution saving throw or take 1d6 radiant damage.</p><p>- The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>",
     "duration": "Instantaneous",
@@ -13353,7 +13353,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Create Homunculus",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 hour",
     "class": [
       "Wizard"
@@ -13363,7 +13363,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "clay, ash, and mandrake root, all of which the spell consumes, and a jewel-encrusted dagger worth at least 1,000 gp",
+    "material_desc": "Clay, ash, and mandrake root, all of which the spell consumes, and a jewel-encrusted dagger worth at least 1,000 gp",
     "material_cost": true,
     "desc": "<p>While speaking an intricate incantation, you cut yourself with a jewel-encrusted dagger, taking 2d4 piercing damage that can’t be reduced in any way. You then drip your blood on the spell’s other components and touch them, transforming them into a special construct called a homunculus.</p><p>- The statistics of the homunculus are in the Monster Manual. It is your faithful companion, and it dies if you die. Whenever you finish a long rest, you can spend up to half your Hit Dice if the homunculus is on the same plane of existence as you. When you do so, roll each die and add your Constitution modifier to it. Your hit point maximum is reduced by the total, and the homunculus’s hit point maximum and current hit points are both increased by it. This process can reduce you to no lower than 1 hit point, and the change to your and the homunculus’s hit points ends when you finish your next long rest. The reduction to your hit point maximum can’t be removed by any means before then, except by the homunculus’s death.</p><p>- You can have only one homunculus at a time. If you cast this spell while your homunculus lives, the spell fails.</p>",
     "duration": "Instantaneous",
@@ -13379,7 +13379,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Maelstrom",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid"
@@ -13389,7 +13389,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "paper or leaf in the shape of a funnel",
+    "material_desc": "Paper or leaf in the shape of a funnel",
     "material_cost": false,
     "desc": "<p>A swirling mass of 5-foot-deep water appears in a 30-foot radius centered on a point you can see within range. The point must be on the ground or in a body of water. Until the spell ends, that area is difficult terrain, and any creature that starts its turn there must succeed on a Strength saving throw or take 6d6 bludgeoning damage and be pulled 10 feet toward the center.</p>",
     "duration": "Concentration, up to 1 minute",
@@ -13406,7 +13406,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Erupting earth",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -13418,7 +13418,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a piece of obsidian",
+    "material_desc": "A piece of obsidian",
     "material_cost": false,
     "desc": "<p>Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes 3d12 bludgeoning damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.  </p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d12 for each slot level above 3rd.</p>",
@@ -13435,7 +13435,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Invulnerability",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Wizard"
@@ -13445,7 +13445,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a small piece of adamantine worth at least 500 gp, which the spell consumes",
+    "material_desc": "A small piece of adamantine worth at least 500 gp, which the spell consumes",
     "material_cost": true,
     "desc": "<p>You are immune to all damage until the spell ends.</p>",
     "duration": "Concentration, up to 10 minutes",
@@ -13462,7 +13462,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Sickening Radiance",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -13489,7 +13489,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Control Winds",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -13516,7 +13516,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Illusory Dragon",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Wizard"
@@ -13541,7 +13541,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Immolation",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -13567,7 +13567,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Holy Weapon",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 bonus action",
     "class": [
       "Cleric",
@@ -13593,7 +13593,7 @@ var spells=[
     "Version": "2.4.1",
     "name": "Thunderclap",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Bard",
@@ -13621,7 +13621,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Primal savagery",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid"
@@ -13645,7 +13645,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Wall of Sand",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Wizard"
@@ -13655,7 +13655,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a handful of sand",
+    "material_desc": "A handful of sand",
     "material_cost": false,
     "desc": "<p>You create a wall of swirling sand on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 10 feet thick, and it vanishes when the spell ends. It blocks line of sight but not movement. A creature is blinded while in the wall’s space and must spend 3 feet of movement for every 1 foot it moves there.</p>",
     "duration": "Concentration, up to 10 minutes",
@@ -13672,7 +13672,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Maddening Darkness",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Warlock",
@@ -13683,7 +13683,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": false,
-    "material_desc": "a drop of pitch mixed with a drop of mercury",
+    "material_desc": "A drop of pitch mixed with a drop of mercury",
     "material_cost": false,
     "desc": "<p>Magical darkness spreads from a point you choose within range to fill a 60-foot-radius sphere until the spell ends. The darkness spreads around corners. A creature with darkvision can’t see through this darkness. Nonmagical light, as well as light created by spells of 8th level or lower, can’t illuminate the area.</p><p>- Shrieks, gibbering, and mad laughter can be heard within the sphere. Whenever a creature starts its turn in the sphere, it must make a Wisdom saving throw, taking 8d8 psychic damage on a failed save, or half as much damage on a successful one.</p>",
     "duration": "Concentration, up to 10 minutes",
@@ -13700,7 +13700,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Investiture of Wind",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -13728,7 +13728,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Guardian of nature",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 bonus action",
     "class": [
       "Druid",
@@ -13754,7 +13754,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Toll the dead",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Cleric",
@@ -13787,7 +13787,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Summon Greater Demon",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Warlock",
@@ -13798,7 +13798,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a vial of blood from a humanoid killed within the past 24 hours",
+    "material_desc": "A vial of blood from a humanoid killed within the past 24 hours",
     "material_cost": false,
     "desc": "<p>You utter foul words, summoning one demon from the chaos of the Abyss. You choose the demon’s type, which must be one of challenge rating 5 or lower, such as a shadow demon or a barlgura. The demon appears in an unoccupied space you can see within range, and the demon disappears when it drops to 0 hit points or when the spell ends.</p><p>- Roll initiative for the demon, which has its own turns. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it spends its turn attacking any creature within reach that has attacked it.</p><p>- At the end of each of the demon’s turns, it makes a Charisma saving throw. The demon has disadvantage on this saving throw if you say its true name. On a failed save, the demon continues to obey you. On a successful save, your control of the demon ends for the rest of the duration, and the demon spends its turns pursuing and attacking the nearest non-demons to the best of its ability. If you stop concentrating on the spell before it reaches its full duration, an uncontrolled demon doesn’t disappear for 1d6 rounds if it still has hit points.</p><p>- As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demon can’t cross the circle or harm it, and it can’t target anyone within it. Using the material component in this manner consumes it when the spell ends.</p></p>",
     "higher_level": "<p> When you cast this spell using a spell slot of 5th level or higher, the challenge rating increases by 1 for each slot level above 4th.</p>",
@@ -13816,7 +13816,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Catapult",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -13842,7 +13842,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Create Bonfire",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -13870,7 +13870,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Thunder Step",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -13897,7 +13897,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Crown of Stars",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -13924,7 +13924,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Investiture of Stone",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -13952,7 +13952,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Magic Stone",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 bonus action",
     "class": [
       "Druid",
@@ -13977,7 +13977,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Shadow Blade",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 bonus action",
     "class": [
       "Sorcerer",
@@ -14005,7 +14005,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Negative Energy Flood",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Warlock",
@@ -14016,7 +14016,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": false,
-    "material_desc": "a broken bone and a square of black silk",
+    "material_desc": "A broken bone and a square of black silk",
     "material_cost": false,
     "desc": "<p>You send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking 5d12 necrotic damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a zombie at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. Statistics for the zombie are in the Monster Manual.</p><p>- If you target an undead with this spell, the target doesn’t make a saving throw. Instead, roll 5d12. The target gains half the total as temporary hit points.</p>",
     "duration": "Instantaneous",
@@ -14032,7 +14032,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Wall of Light",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Sorcerer",
@@ -14044,7 +14044,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a hand mirror",
+    "material_desc": "A hand mirror",
     "material_cost": false,
     "desc": "<p>A shimmering wall of bright light appears at a point you choose within range. The wall appears in any orientation you choose: horizontally, vertically, or diagonally. It can be free floating, or it can rest on a solid surface. The wall can be up to 60 feet long, 10 feet high, and 5 feet thick. The wall blocks line of sight, but creatures and objects can pass through it. It emits bright light out to 120 feet and dim light for an additional 120 feet.</p><p>- When the wall appears, each creature in its area must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute. On a successful save, it takes half as much damage and isn’t blinded. A blinded creature can make a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.</p><p>- A creature that ends its turn in the wall’s area takes 4d8 radiant damage.</p><p>Until the spell ends, you can use an action to launch a beam of radiance from the wall at one creature you can see within 60 feet of it. Make a ranged spell attack. On a hit, the target takes 4d8 radiant damage. Whether you hit or miss, reduce the length of the wall by 10 feet. If the wall’s length drops to 0 feet, the spell ends.</p></p>",
     "higher_level": "<p> When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</p>",
@@ -14062,7 +14062,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Wrath of nature",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -14088,7 +14088,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Dust devil",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -14100,7 +14100,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a pinch of dust",
+    "material_desc": "A pinch of dust",
     "material_cost": false,
     "desc": "<p>Choose an unoccupied 5-foot cube of air that you can see within range. An elemental force that resembles a dust devil appears in the cube and lasts for the spell’s duration.</p><p>- Any creature that ends its turn within 5 feet of the dust devil must make a Strength saving throw. On a failed save, the creature takes 1d8 bludgeoning damage and is pushed 10 feet away from the dust devil. On a successful save, the creature takes half as much damage and isn’t pushed.</p><p>- As a bonus action, you can move the dust devil up to 30 feet in any direction. If the dust devil moves over sand, dust, loose dirt, or light gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area.</p>",
     "higher_level": "<p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>",
@@ -14118,7 +14118,7 @@ var spells=[
     "Version": "2.4.1",
     "name": "Earth tremor",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Bard",
@@ -14146,7 +14146,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Life transference",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Cleric",
@@ -14172,7 +14172,7 @@ var spells=[
     "Version": "2.4.4",
     "name": "Far Step",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 bonus action",
     "class": [
       "Sorcerer",
@@ -14199,7 +14199,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Mold Earth",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
@@ -14225,7 +14225,7 @@ var spells=[
     "Version": "2.4.2",
     "name": "Temple of the gods",
     "Path": "",
-    "source": "XGtE",
+    "source": ["XGtE"],
     "casting_time": "1 hour",
     "class": [
       "Cleric"
@@ -14235,7 +14235,7 @@ var spells=[
     "verbal": true,
     "material": true,
     "somatic": true,
-    "material_desc": "a holy symbol worth at least 5 gp",
+    "material_desc": "A holy symbol worth at least 5 gp",
     "material_cost": true,
     "desc": "<p>You cause a temple to shimmer into existence on ground you can see within range. The temple must fit within an unoccupied cube of space, up to 120 feet on each side. The temple remains until the spell ends. It is dedicated to whatever god, pantheon, or philosophy is represented by the holy symbol used in the casting.</p><p>- You make all decisions about the temple’s appearance. The interior is enclosed by a floor, walls, and a roof, with one door granting access to the interior and as many windows as you wish. Only you and any creatures you designate when you cast the spell can open or close the door.</p><p>- The temple’s interior is an open space with an idol or altar at one end. You decide whether the temple is illuminated and whether that illumination is bright light or dim light. The smell of burning incense fills the air within, and the temperature is mild.</p><p>- The temple opposes types of creatures you choose when you cast this spell. Choose one or more of the following: celestials, elementals, fey, fiends, or undead. If a creature of the chosen type attempts to enter the temple, that creature must make a Charisma saving throw. On a failed save, it can’t enter the temple for 24 hours. Even if the creature can enter the temple, the magic there hinders it; whenever it makes an attack roll, an ability check, or a saving throw inside the temple, it must roll a d4 and subtract the number rolled from the d20 roll.</p><p>- In addition, the sensors created by divination spells can’t appear inside the temple, and creatures within can’t be targeted by divination spells.</p><p>- Finally, whenever any creature in the temple regains hit points from a spell of 1st level or higher, the creature regains additional hit points equal to your Wisdom modifier (minimum 1 hit point).</p><p>- The temple is made from opaque magical force that extends into the Ethereal Plane, thus blocking ethereal travel into the temple’s interior. Nothing can physically pass through the temple’s exterior. It can’t be dispelled by dispel magic, and antimagic field has no effect on it. A disintegrate spell destroys the temple instantly.</p><p>- Casting this spell on the same spot every day for a year makes this effect permanent.</p>",
     "duration": "24 hours",
@@ -14251,7 +14251,7 @@ var spells=[
     "Version": "2.4.3",
     "name": "Watery sphere",
     "Path": "",
-    "source": "XGtE",
+    "source": ["EE PC","XGtE"],
     "casting_time": "1 action",
     "class": [
       "Druid",
