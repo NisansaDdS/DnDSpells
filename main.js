@@ -515,7 +515,7 @@ $(document).ready(function() {
   $('#filteruatobm').bind('click',function() { toggleFilter(this, filterSources, 'UA TOBM') });
   $('#filterxgte').bind('click',function() { toggleFilter(this, filterSources, 'XGtE') });
   $('#clearsources').bind('click', function() {
-    $('div.filtersource').removeClass('selected');
+    $('div.filtersource, a.filtersource').removeClass('selected');
     filterSources = new Set();
     refilter();
   });
@@ -556,7 +556,7 @@ $(document).ready(function() {
   $('#filtergreatoldone').bind('click', function() { toggleFilter(this, filterPatrons, 'Great Old One') });
 
   $('#clearlists').bind('click', function() {
-    $('a.filterclass, a.filterdomain, a.filtercircle, a.filteroath, a.filterpatron').removeClass('selected');
+    $('div.filterclass, a.filterdomain, a.filtercircle, a.filteroath, a.filterpatron').removeClass('selected');
     filterClasses = new Set();
     filterDomains = new Set();
     filterCircles = new Set();

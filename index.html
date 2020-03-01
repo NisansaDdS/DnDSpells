@@ -151,6 +151,7 @@
         background: lightblue;
 		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);
         color: black;
+		
       }
 
       #filterinput {
@@ -193,6 +194,10 @@
 		height:30px;
 	  }
 	  
+	  .DnDclass{
+		border-radius: 50%;
+		height:90px;
+	  }
 	  
     </style>
   </head>
@@ -259,7 +264,7 @@
 		<div class="filtercat">
 		
 		<tr>
-			<td><b>Source:</b> </td>
+			<td><b>Source:</b> (<a id="clearsources" class="filterbutton">clear</a>)</td>
 			<td><b>Spell List:</b> (<a id="clearlists" class="filterbutton">clear</a>)</td>
 		</tr>
 		
@@ -282,8 +287,8 @@
 		  <td><div id="filterxgte" class="filterbutton filtersource"><a><img height="200px" src="https://images-na.ssl-images-amazon.com/images/I/81objtUow1L.jpg"><br>Xanathar's Guide to Everything (XGtE)</a></div></td>
 		 </tr>
 		 <tr align="center">
-			<td colspan="3"><div id="filteruatobm" class="filterbutton filtersource"><a><img height="200px" src="https://media.dnd.wizards.com/styles/news_banner_header/public/images/news/SA20151019_header_0.jpg"><br>Unearthed Arcana (UA)</a></div></td>
-			<td><a><div id="clearsources" class="filterbutton filtersource"><img height="200px" src="clear.png"><br>Clear</a></div></td>
+			<td colspan="4"><div id="filteruatobm" class="filterbutton filtersource"><a><img height="200px" src="https://media.dnd.wizards.com/styles/news_banner_header/public/images/news/SA20151019_header_0.jpg"><br>Unearthed Arcana (UA)</a></div></td>
+		<!--	<td><a><div id="clearsources" class="filterbutton filtersource"><img height="200px" src="clear.png"><br>Clear</a></div></td>  -->
 		 </tr>
 		 
 		 </div>
@@ -292,22 +297,38 @@
         
 		
 		</td>
-		<td>
+		<td valign="top">
 		
         <div class="filtercat">
           
 
           Class:
-          <a id="filterbard" class="filterbutton filterclass">Bard</a>
-          <a id="filtercleric" class="filterbutton filterclass">Cleric</a>
-          <a id="filterdruid" class="filterbutton filterclass">Druid</a>
-          <a id="filterpaladin" class="filterbutton filterclass">Paladin</a>
-          <a id="filterranger" class="filterbutton filterclass">Ranger</a>
-          <a id="filtersorcerer" class="filterbutton filterclass">Sorcerer</a>
-          <a id="filterwizard" class="filterbutton filterclass">Wizard</a>
-          <a id="filterwarlock" class="filterbutton filterclass">Warlock</a>
-          <a id="filterritualcaster" class="filterbutton filterclass">Ritual Caster</a>
+		  <table>
+		  <tr align="center">
+			<td><div id="filterbard" class="filterbutton filterclass"><a><img class="DnDclass" src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/classes/bard.jpg"><br>Bard</a></div></td>
+        	<td><div id="filtercleric" class="filterbutton filterclass"><a><img  class="DnDclass" src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/classes/cleric.jpg">Cleric</a></div></td>
+        	<td><div id="filterdruid" class="filterbutton filterclass"><a><img  class="DnDclass" src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/classes/druid.jpg">Druid</a></div></td>
+        	<td><div id="filterpaladin" class="filterbutton filterclass"><a><img  class="DnDclass" src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/classes/paladin.jpg">Paladin</a></div></td>
+        	<td><div id="filterranger" class="filterbutton filterclass"><a><img  class="DnDclass" src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/classes/ranger.jpg">Ranger</a></div></td>
+        	<td><div id="filtersorcerer" class="filterbutton filterclass"><a><img  class="DnDclass" src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/classes/sorcerer.jpg">Sorcerer</a></div></td>
+        	<td><div id="filterwizard" class="filterbutton filterclass"><a><img  class="DnDclass" src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/classes/wizard.jpg">Wizard</a></div></td>
+        	<td><div id="filterwarlock" class="filterbutton filterclass"><a><img  class="DnDclass" src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/classes/warlock.jpg">Warlock</a></div></td>
+        	<td><div id="filterritualcaster" class="filterbutton filterclass"><a><img  class="DnDclass" src="Ritual.png">Ritual Caster</a></div></td>
+		  </tr>
+		  </table>
           <br/>
+		  
+		 
+			<b>School:</b> (<a id="clearschools" class="filterbutton filterschool">clear</a>)
+			<a id="filterabjuration" class="filterbutton filterschool">Abjuration</a>
+			<a id="filterconjuration" class="filterbutton filterschool">Conjuration</a>
+			<a id="filterdivination" class="filterbutton filterschool">Divination</a>
+			<a id="filterillusion" class="filterbutton filterschool">Illusion</a>
+			<a id="filterenchantment" class="filterbutton filterschool">Enchantment</a>
+			<a id="filterevocation" class="filterbutton filterschool">Evocation</a>
+			<a id="filternecromancy" class="filterbutton filterschool">Necromancy</a>
+			<a id="filtertransmutation" class="filterbutton filterschool">Transmutation</a>
+		   <br />
 
           Cleric Domain:
           <a id="filterknowledge" class="filterbutton filterdomain">Knowledge</a>
@@ -341,17 +362,7 @@
           <a id="filterfiend" class="filterbutton filterpatron">Fiend</a>
           <a id="filtergreatoldone" class="filterbutton filterpatron">Great Old One</a>
         </div>
-        <div class="filtercat">
-          <b>School:</b> (<a id="clearschools" class="filterbutton filterschool">clear</a>)
-          <a id="filterabjuration" class="filterbutton filterschool">Abjuration</a>
-          <a id="filterconjuration" class="filterbutton filterschool">Conjuration</a>
-          <a id="filterdivination" class="filterbutton filterschool">Divination</a>
-          <a id="filterillusion" class="filterbutton filterschool">Illusion</a>
-          <a id="filterenchantment" class="filterbutton filterschool">Enchantment</a>
-          <a id="filterevocation" class="filterbutton filterschool">Evocation</a>
-          <a id="filternecromancy" class="filterbutton filterschool">Necromancy</a>
-          <a id="filtertransmutation" class="filterbutton filterschool">Transmutation</a>
-        </div>
+       
         <div class="filtercat">
           <b>Level:</b> (<a id="clearlevels" class="filterbutton">clear</a>)
           <a id="filterlevel0" class="filterbutton filterlevel">0</a>
