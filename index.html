@@ -134,7 +134,7 @@
 
       .filtercat {
         padding: .35em 0;
-        font-size: .8em;
+        font-size: 1.2em;
       }
 
       .filterbutton {
@@ -204,6 +204,10 @@
 		height:90px;
 	  }
 	  
+	  .largeFontTable{
+		font-size: 0.85em;
+	  }
+	  
 	  
     </style>
   </head>
@@ -229,10 +233,10 @@
           <option value="2">2</option>
           <option value="1">1</option>
         </select>
-        Load preset:
-        <select id="presetsource">
-          <option value="phb" selected>PHB Only</option>
-          <option value="all">All</option>
+        <!-- Load preset: -->
+        <select hidden id="presetsource">
+          <option value="phb">PHB Only</option>
+          <option value="all"selected>All</option>
         </select>
       </div>
       <div class="filtercat">
@@ -281,7 +285,7 @@
 		
 		
 		
-		<table>
+		<table class="largeFontTable">
 		
 		
 		<div class="filtercat">
@@ -326,7 +330,7 @@
 		  
 		 
 			<b>School:</b> (<a id="clearschools" class="filterbutton filterschool">clear</a>)
-			<table>
+			<table class="largeFontTable">
 		  <tr align="center">			
 			<td><div id="filterabjuration" class="filterbutton filterschool"><a><img  class="DnDschool" src="Abjuration.png">Abjuration</a></div></td>
 			<td><div id="filterconjuration" class="filterbutton filterschool"><a><img  class="DnDschool" src="Conjuration.png">Conjuration</a></div></td>
@@ -388,9 +392,9 @@
           <a id="filterlevel8" class="filterbutton filterlevel">8</a>
           <a id="filterlevel9" class="filterbutton filterlevel">9</a>
         </div>
-        <div class="filtercat">
+        <div class="filtercat" >
           <b>Search:</b> (<a id="clearsearch" class="filterbutton">clear</a>)
-          <input type="text" id="searchinput"/>
+          <input type="text" id="searchinput" />
         </div>
       </div>
 	  
