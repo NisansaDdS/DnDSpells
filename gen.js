@@ -4,7 +4,7 @@ var template = `
   <div class="card-header">  
   <h3>  
   {{#school}}
-  <img class="school" src="{{{school}}}.png">
+  <img class="school" src="images/{{{school}}}.png">
   {{/school}}  
   {{name}}  
   </h3>  
@@ -49,9 +49,9 @@ var template = `
   {{/higher_level}}  
   <table>
   <tr>
-  {{#direct}}<td><b>Direct&nbsp;&nbsp;&nbsp;&nbsp;</b><br><img class='damage'  src='{{{type}}}.png'>&nbsp;&nbsp;{{{damage}}}&nbsp;&nbsp;&nbsp;&nbsp;</td>{{/direct}}
-  {{#subsequent}}<td><b>Subsequent&nbsp;&nbsp;</b><br><img class='damage'  src='{{{type}}}.png'>&nbsp;&nbsp;&nbsp;&nbsp;{{{damage}}}&nbsp;&nbsp;&nbsp;&nbsp;</td>{{/subsequent}}
-  {{#continuous}}<td><b>Continuous&nbsp;&nbsp;&nbsp;&nbsp;</b><br><img class='damage'  src='{{{type}}}.png'>&nbsp;&nbsp;{{{damage}}}</td>{{/continuous}}
+  {{#direct}}<td><b>Direct&nbsp;&nbsp;&nbsp;&nbsp;</b><br><img class='damage'  src='images/{{{type}}}.png'>&nbsp;&nbsp;{{{damage}}}&nbsp;&nbsp;&nbsp;&nbsp;</td>{{/direct}}
+  {{#subsequent}}<td><b>Subsequent&nbsp;&nbsp;</b><br><img class='damage'  src='images/{{{type}}}.png'>&nbsp;&nbsp;&nbsp;&nbsp;{{{damage}}}&nbsp;&nbsp;&nbsp;&nbsp;</td>{{/subsequent}}
+  {{#continuous}}<td><b>Continuous&nbsp;&nbsp;&nbsp;&nbsp;</b><br><img class='damage'  src='images/{{{type}}}.png'>&nbsp;&nbsp;{{{damage}}}</td>{{/continuous}}
   </tr>
   </table>
 </div>
