@@ -556,7 +556,7 @@ $(document).ready(function() {
   $('#filtergreatoldone').bind('click', function() { toggleFilter(this, filterPatrons, 'Great Old One') });
 
   $('#clearlists').bind('click', function() {
-    $('div.filterclass, a.filterdomain, a.filtercircle, a.filteroath, a.filterpatron').removeClass('selected');
+    $('div.filterclass, a.filterdomain, a.filtercircle, a.filteroath, a.filterpatron, div.filterschool').removeClass('selected');
     filterClasses = new Set();
     filterDomains = new Set();
     filterCircles = new Set();
@@ -574,7 +574,7 @@ $(document).ready(function() {
   $('#filterdivination').bind('click', function() { toggleFilter(this, filterSchools, 'Divination') });
   $('#filterillusion').bind('click', function() { toggleFilter(this, filterSchools, 'Illusion') });
   $('#clearschools').bind('click', function() {
-    $('a.filterschool').removeClass('selected');
+    $('div.filterschool').removeClass('selected');
     filterSchools = new Set();
     refilter();
   });
