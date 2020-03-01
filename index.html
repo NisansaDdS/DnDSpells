@@ -177,8 +177,12 @@
         cursor: pointer;
       }
 
-      .spell:hover {
+      .adding .spell:hover {
         background-color: lightblue;
+      }
+	  
+	  .remove .spell:hover {
+        background-color: lightcoral;
       }
 
       #floater {
@@ -265,7 +269,7 @@
       <div class="filtercat">
         <a id="generate" class="filterbutton" target="_blank">Generate printable PDF! (opens in new window)</a><br/>
       </div>
-      <table id="selectedtable" class="table">
+      <table id="selectedtable" class="table remove">
         <thead>
           <tr>
             <th class="levelcol col">Lvl</th>
@@ -425,7 +429,7 @@
 	  
 	  
 	  
-      <table id="searchtable" class="table">
+      <table id="searchtable" class="table adding">
         <thead>
           <tr>
           <th class="levelcol col" data-sort="int">Lvl</th>
