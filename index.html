@@ -22,13 +22,45 @@
     <script type="text/javascript" src="stupidtable.min.js"></script>
     <script type="text/javascript" src="bitset.min.js"></script>
      
-	 
-	  
- 	 <script type="text/javascript" src="https://ix.cs.uoregon.edu/~nisansa/CodeSamples/DnDSpells/spells.js"></script> 
- <!--<script type="text/javascript" src="spells.js"></script> -->
-    <script type="text/javascript" src="main.js"></script>
+	<script>
+		var spells = 'undefined';
+	</script>
 	
-		 
+	  
+   <script type="text/javascript" src="https://ix.cs.uoregon.edu/~nisansa/CodeSamples/DnDSpells/spells.js"></script> 
+   <script type="text/javascript" src="spells.js"></script> 
+    
+	
+ <!--
+
+ <script>
+	//jQuery.getScript('spells.js');
+	
+	var spellRemortLoaded = false;
+	function initSpells() {
+		
+		if (typeof(spells) == 'undefined'){
+			console.log("blaa");
+			
+			
+			if (! spellRemortLoaded) {
+				//only output the script once..
+				spellRemortLoaded = true;
+				
+				//output the script (load it from google api)
+				document.write("<scr" + "ipt type='text/javascript' src='https://ix.cs.uoregon.edu/~nisansa/CodeSamples/DnDSpells/spells.js'></scr" + "ipt>");
+			}
+			setTimeout("initSpells()", 50);
+		
+		}
+	}
+	
+	initSpells();
+	</script> 
+
+	-->
+	
+	<script type="text/javascript" src="main.js"></script>
   
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
