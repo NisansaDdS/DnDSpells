@@ -184,6 +184,8 @@ $(document).ready(function() {
   // Selecting spells.
   var $selectInstructions = $('#selectinstructions'),
       $generate = $('#generate');
+	  $generateS = $('#generateS');
+	  $generateS2 = $('#generateS2');
 
   var selectSpell = function(sp) {
     var $row = $(Mustache.render(searchSpellTemplate, sp));
@@ -211,7 +213,9 @@ $(document).ready(function() {
   var updateSelected = function() {
     var ref = selectedSpellsBitSet.toString(16);
 
-    $generate.attr('href', 'gen.html?' + ref)
+    $generate.attr('href', 'gen.html?' + ref);
+	$generateS.attr('href', 'char.html?' + ref);
+	$generateS2.attr('href', 'charDouble.html?' + ref);
     history.replaceState(history.state, document.title, window.location.pathname + '?' + ref);
   }
 

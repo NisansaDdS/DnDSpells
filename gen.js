@@ -38,7 +38,10 @@ var template = `
 	{{/material_desc}}	
   </table>
   <hr>  
-  {{{desc}}}  
+  {{{desc}}}    
+  {{#extra_desc}} 
+  {{{extra_desc}}}  
+  {{/extra_desc}}   
   {{#higher_level}}  
   <div class="card bg-info">
   <div class="card-header inner-headder"><b>At higher levels:</b></div>
