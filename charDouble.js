@@ -8,15 +8,21 @@ var swap = function(s1,s2){
 	return [s2,s1];
 }
 
+
+
 window.onload = function () {
    var fronts=Mustache.render(template, {spells: spellbook});
   
   var list=eval(Mustache.render(template3, {spells: spellbook}));
   var overlap=4-list.length%4;
-  while(overlap>0){
-	  list.push("Empty");
-	  fronts=fronts+makeBack("Empty");
-	  overlap--;
+  
+  
+  if(overlap!=4){
+	  while(overlap>0){
+		  list.push("Empty");
+		  fronts=fronts+makeBack("Empty");
+		  overlap--;
+	  }
   }
     
   var i;
