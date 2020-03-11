@@ -269,19 +269,21 @@
   flex: 1;
   height: 20px;
   display: flex;
+  
 }
 
 
 .property-text {
   flex: 1;
   text-align: center;
-  line-height: 25px;
+  line-height: 20px;
+  
 }
 
 .property-text2 {
   flex: 1;
   text-align: center;
-  line-height: 25px;
+  line-height: 20px;
 }
 
 .content {

@@ -1,0 +1,80 @@
+.Abjuration-header {
+  background-image: radial-gradient(at right 60%, #de9eea 20%, #9c27b0 80%);
+  /* Purple */
+}
+
+.Abjuration-background {
+	background-color: #de9eea!important;
+  /* Purple */
+}
+
+.Divination-header {
+  background-image: radial-gradient(at right 60%, #d8d8d8 20%, #9e9e9e 80%);
+  /* Grey */
+}
+
+.Divination-background {
+  background-color: #d8d8d8!important;
+  /* Grey */
+}
+
+.Illusion-header {
+  background-image: radial-gradient(at right 60%, #ffbca7 20%, #ff5722 80%);
+  /* Orange */
+}
+
+.Illusion-background {
+  background-color: #ffbca7!important;
+ /* Orange */
+}
+
+.Enchantment-header {
+  background-image: radial-gradient(at right 60%, #b7dfb8 20%, #4caf50 80%);
+  /* Green */
+}
+
+.Enchantment-background {
+  background-color: #b7dfb8!important;
+ /* Green */
+}
+
+.Evocation-header {
+  background-image: radial-gradient(at right 60%, #fbb3ae 20%, #f44336 80%);
+  /* Red */
+}
+
+.Evocation-background {
+  background-color: #fbb3ae!important;
+ /* Red */
+}
+
+.Necromancy-header {
+  background-image: radial-gradient(at right 60%, #999999 20%, #000000 80%);
+  /* Black */
+}
+
+.Necromancy-background {
+  background-color: #999999!important;
+ /* Black */
+}
+
+.Transmutation-header {
+  background-image: radial-gradient(at right 60%, #a6d4fa 20%, #2196f3 80%);
+  /* Blue */
+}
+
+.Transmutation-background {
+  background-color: #a6d4fa!important;
+ /* Blue */
+}
+
+.Conjuration-header {
+  background-image: radial-gradient(at right 60%, #ffe69b 20%, #ffc107 80%);
+  /* Yellow */
+}
+
+.Conjuration-background {
+  background-color: #ffe69b!important;
+ /* Yellow */
+}
+
