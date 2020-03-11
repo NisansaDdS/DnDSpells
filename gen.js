@@ -1,6 +1,6 @@
 var template = `
 {{#spells}}
-<div class="spell card pmd-card {{{school}}}-background">  
+<div class="spell card pmd-card bg-light">  
   <div class="card-header {{{school}}}-header">  
   <h3>  
   {{#school}}
