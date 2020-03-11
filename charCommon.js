@@ -10,10 +10,16 @@ var template = `
               {{#concentration}}
 					<img class="badgesS"  src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/core_mechanics/concentration.svg">
 				{{/concentration}}
+				{{^concentration}}
+					<img class="badgesS"  src="images/Empty.png">
+				{{/concentration}}
               {{name}}
               {{#ritual}}
-		<img class="badges2S"  src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/core_mechanics/ritual.svg">
-	{{/ritual}}
+					<img class="badges2S"  src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/core_mechanics/ritual.svg">
+			   {{/ritual}}
+			   {{^ritual}}
+					<img class="badgesS"  src="images/Empty.png">
+			   {{/ritual}}
             </div>
           </div>
 </div>
