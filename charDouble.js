@@ -9,9 +9,15 @@ var swap = function(s1,s2){
 }
 
 window.onload = function () {
-  document.getElementById('spells').innerHTML ="<div class='card-columns'><table><tr>"+Mustache.render(template, {spells: spellbook})+"</tr></table></div>";  
+   var fronts=Mustache.render(template, {spells: spellbook});
   
   var list=eval(Mustache.render(template3, {spells: spellbook}));
+  var overlap=4-list.length%4;
+  while(overlap>0){
+	  list.push("Empty");
+	  fronts=fronts+makeBack("Empty");
+	  overlap--;
+  }
     
   var i;
   for (i = 0; i < list.length; i+=4 ) {
@@ -29,6 +35,8 @@ window.onload = function () {
   for (i = 0; i < list.length; i++ ) {
 	  backs+=makeBack(list[i])
   }
+  
+  document.getElementById('spells').innerHTML ="<div class='card-columns'><table><tr>"+fronts+"</tr></table></div>"; 
   document.getElementById('spellsBack').innerHTML ="<div class='card-columns'><table><tr>"+backs+"</tr></table></div>";
   
   
