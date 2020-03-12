@@ -52,9 +52,11 @@ var template = `
   {{/higher_level}}  
   <table>
   <tr>
-  {{#direct}}<td><b>Direct&nbsp;&nbsp;&nbsp;&nbsp;</b><br><img class='damage'  src='images/{{{type}}}.png'>&nbsp;&nbsp;{{{damage}}}&nbsp;&nbsp;&nbsp;&nbsp;</td>{{/direct}}
-  {{#subsequent}}<td><b>Subsequent&nbsp;&nbsp;</b><br><img class='damage'  src='images/{{{type}}}.png'>&nbsp;&nbsp;&nbsp;&nbsp;{{{damage}}}&nbsp;&nbsp;&nbsp;&nbsp;</td>{{/subsequent}}
-  {{#continuous}}<td><b>Continuous&nbsp;&nbsp;&nbsp;&nbsp;</b><br><img class='damage'  src='images/{{{type}}}.png'>&nbsp;&nbsp;{{{damage}}}</td>{{/continuous}}
+  {{#saving}}<td style='vertical-align: text-top;'><b>Saving Throw&nbsp;&nbsp;&nbsp;&nbsp;</b><br><img class='damage'  src='https://www.dndbeyond.com/Content/Skins/Waterdeep/images/icons/abilities/{{{type}}}.svg'>&nbsp;{{{type}}}&nbsp;&nbsp;&nbsp;&nbsp;</td>{{/saving}}
+  {{#direct}}<td style='vertical-align: text-top;'><b>Direct&nbsp;&nbsp;&nbsp;&nbsp;</b><br><img class='damage'  src='images/{{{type}}}.png'>&nbsp;&nbsp;{{{damage}}}&nbsp;&nbsp;&nbsp;&nbsp;</td>{{/direct}}
+  {{#subsequent}}
+  <td style='vertical-align: text-top;'><b>Subsequent&nbsp;&nbsp;</b><br><img class='damage'  src='images/{{{type}}}.png'>&nbsp;&nbsp;&nbsp;&nbsp;{{{damage}}}&nbsp;&nbsp;&nbsp;&nbsp;</td>{{/subsequent}}
+  {{#continuous}}<td style='vertical-align: text-top;'><b>Continuous&nbsp;&nbsp;&nbsp;&nbsp;</b><br><img class='damage'  src='images/{{{type}}}.png'>&nbsp;&nbsp;{{{damage}}}</td>{{/continuous}}
   </tr>
   </table>
 </div>
