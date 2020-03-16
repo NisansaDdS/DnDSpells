@@ -131,7 +131,7 @@
 }
 
 .damgeClass {
-  font-size: 7pt;
+  font-size: 4pt;
   bottom: -25px;
 }
 
@@ -239,6 +239,7 @@
   height: 50px;
   line-height: 50px;
   font-size: 18pt;
+  
   font-weight: bold;
   text-align: center;
   border-top-right-radius: 15px;

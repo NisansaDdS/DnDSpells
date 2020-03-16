@@ -11,14 +11,18 @@ var template = `
 					<img class="badgesS"  src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/core_mechanics/concentration.svg">
 				{{/concentration}}
 				{{^concentration}}
+				{{#ritual}}
 					<img class="badgesS"  src="images/Empty.png">
+				{{/ritual}}
 				{{/concentration}}
-              {{name}}
+					<span class="resize">{{{name}}}</span>
               {{#ritual}}
 					<img class="badges2S"  src="https://www.dndbeyond.com/content/1-0-842-0/skins/waterdeep/images/icons/core_mechanics/ritual.svg">
 			   {{/ritual}}
 			   {{^ritual}}
+			   {{#concentration}}
 					<img class="badgesS"  src="images/Empty.png">
+			   {{/concentration}}
 			   {{/ritual}}
             </div>
           </div>
@@ -128,3 +132,32 @@ var closeHeader = function() {
 var edit = function() {
   window.location.pathname = window.location.pathname + '/..'
 }
+
+var autoSizeText = function() {
+  var el, elements, _i, _len, _results;
+  elements = $('.resize');
+  /* console.log(elements); */
+  if (elements.length < 0) {
+    return;
+  }
+  _results = [];
+  for (_i = 0, _len = elements.length; _i < _len; _i++) {
+    el = elements[_i];
+    _results.push((function(el) {
+      var resizeText, _results1;
+      resizeText = function() {
+        var elNewFontSize;
+        elNewFontSize = (parseInt($(el).css('font-size').slice(0, -2)) - 1) + 'px';
+        return $(el).css('font-size', elNewFontSize);
+      };
+      _results1 = [];
+      while (el.scrollHeight > el.offsetHeight) {
+        _results1.push(resizeText());
+      }
+      return _results1;
+    })(el));
+  }
+  console.log(_results);
+  return _results;
+};
+

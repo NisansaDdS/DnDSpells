@@ -44,8 +44,26 @@ window.onload = function () {
   
   document.getElementById('spells').innerHTML ="<div class='card-columns'><table><tr>"+fronts+"</tr></table></div>"; 
   document.getElementById('spellsBack').innerHTML ="<div class='card-columns'><table><tr>"+backs+"</tr></table></div>";
+  /* autoSizeText(); */
+  /* $('.resize').textfill({maxFontPixels:5});  */
   
+  $('.resize').each(function( index ) {	  
+	  var html_org = $(this).html();
+	  var html_calc = '<span>' + html_org + '</span>';
+	  $(this).html(html_calc);
+      var width = $(this).find('span:first').width();
+      $(this).html(html_org);
+ 
+	  if(width>260){	   
+			$(this).css( "font-size","20px" );
+			if(width>320){
+				$(this).css( "font-size","19px" );
+			}		
+	  }
+  });
   
 }
+
+
 
 
