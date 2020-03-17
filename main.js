@@ -18,6 +18,9 @@ var floatingDescriptionTemplate = `
 <b>Components:</b> {{component_desc}}{{#material_cost}} ({{material_desc}}){{/material_cost}}<br/>
 <b>Duration:</b> {{duration}}<br/>
 {{{desc}}}
+{{#extra_desc}}
+{{{extra_desc}}}
+{{/extra_desc}}
 {{#higher_level}}
 <p><b>At higher levels:</b></p>
 {{{higher_level}}}
